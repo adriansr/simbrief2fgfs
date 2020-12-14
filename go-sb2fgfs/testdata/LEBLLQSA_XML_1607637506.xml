@@ -1,0 +1,3124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OFP>
+  <params>
+    <request_id>28298184</request_id>
+    <user_id>322111</user_id>
+    <time_generated>1607637506</time_generated>
+    <ofp_layout>lido2</ofp_layout>
+    <airac>1903</airac>
+    <units>lbs</units>
+  </params>
+  <general>
+    <release>2</release>
+    <icao_airline>SAB</icao_airline>
+    <flight_number>7713</flight_number>
+    <is_etops>0</is_etops>
+    <dx_rmk>NONE</dx_rmk>
+    <sys_rmk/>
+    <is_detailed_profile>1</is_detailed_profile>
+    <cruise_profile>CI46</cruise_profile>
+    <climb_profile>250/330/82</climb_profile>
+    <descent_profile>82/330/250</descent_profile>
+    <alternate_profile>CI0</alternate_profile>
+    <reserve_profile>RES</reserve_profile>
+    <costindex>46</costindex>
+    <initial_altitude>38000</initial_altitude>
+    <stepclimb_string>LEBL/0380/OBLAD/0390/PELOS/0380/XOLTA/0390</stepclimb_string>
+    <avg_temp_dev>2</avg_temp_dev>
+    <avg_tropopause>31943</avg_tropopause>
+    <avg_wind_comp>27</avg_wind_comp>
+    <avg_wind_dir>306</avg_wind_dir>
+    <avg_wind_spd>041</avg_wind_spd>
+    <gc_distance>733</gc_distance>
+    <route_distance>797</route_distance>
+    <air_distance>750</air_distance>
+    <total_burn>26460</total_burn>
+    <cruise_tas>472</cruise_tas>
+    <cruise_mach>.82</cruise_mach>
+    <passengers>366</passengers>
+    <route>DCT SALON UM985 OBLAD UZ194 PELOS DCT IBROS DCT MEDAL DCT TIBER DCT ETRIN DCT XOLTA</route>
+    <route_ifps>DCT SALON UM985 OBLAD UZ194 PELOS DCT IBROS DCT MEDAL DCT TIBER DCT ETRIN DCT XOLTA</route_ifps>
+    <route_navigraph>DCT SALON UM985 OBLAD UZ194 PELOS DCT IBROS DCT MEDAL DCT TIBER DCT ETRIN DCT XOLTA</route_navigraph>
+  </general>
+  <origin>
+    <icao_code>LEBL</icao_code>
+    <iata_code>BCN</iata_code>
+    <faa_code/>
+    <elevation>14</elevation>
+    <pos_lat>41.296944</pos_lat>
+    <pos_long>2.078333</pos_long>
+    <name>EL PRAT</name>
+    <plan_rwy>25L</plan_rwy>
+  </origin>
+  <destination>
+    <icao_code>LQSA</icao_code>
+    <iata_code>SJJ</iata_code>
+    <faa_code/>
+    <elevation>1708</elevation>
+    <pos_lat>43.824472</pos_lat>
+    <pos_long>18.331767</pos_long>
+    <name>SARAJEVO</name>
+    <plan_rwy>12</plan_rwy>
+  </destination>
+  <alternate>
+    <icao_code>LQMO</icao_code>
+    <iata_code>OMO</iata_code>
+    <faa_code/>
+    <elevation>174</elevation>
+    <pos_lat>43.282900</pos_lat>
+    <pos_long>17.845878</pos_long>
+    <name>MOSTAR</name>
+    <plan_rwy>34</plan_rwy>
+    <cruise_altitude>14000</cruise_altitude>
+    <distance>108</distance>
+    <gc_distance>39</gc_distance>
+    <air_distance>115</air_distance>
+    <track_true>213</track_true>
+    <track_mag>211</track_mag>
+    <tas>327</tas>
+    <gs>315</gs>
+    <avg_wind_comp>M012</avg_wind_comp>
+    <avg_wind_dir>233</avg_wind_dir>
+    <avg_wind_spd>016</avg_wind_spd>
+    <avg_tropopause>29200</avg_tropopause>
+    <avg_tdv>M05</avg_tdv>
+    <ete>2163</ete>
+    <burn>7532</burn>
+    <route>DCT VRANA DCT</route>
+    <route_ifps>DCT VRANA DCT</route_ifps>
+  </alternate>
+  <takeoff_altn/>
+  <enroute_altn/>
+  <navlog>
+    <fix>
+      <ident>SALON</ident>
+      <name>SALON</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>41.494500</pos_lat>
+      <pos_long>3.187194</pos_long>
+      <stage>CLB</stage>
+      <via_airway>DCT</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>74</distance>
+      <track_true>076</track_true>
+      <track_mag>076</track_mag>
+      <heading_true>070</heading_true>
+      <heading_mag>070</heading_mag>
+      <altitude_feet>32700</altitude_feet>
+      <ind_airspeed>294</ind_airspeed>
+      <true_airspeed>473</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.82</mach_thousandths>
+      <wind_component>47</wind_component>
+      <groundspeed>520</groundspeed>
+      <time_leg>606</time_leg>
+      <time_total>606</time_total>
+      <fuel_flow>33900</fuel_flow>
+      <fuel_leg>5283</fuel_leg>
+      <fuel_totalused>5283</fuel_totalused>
+      <fuel_min_onboard>34610</fuel_min_onboard>
+      <fuel_plan_onboard>38351</fuel_plan_onboard>
+      <oat>-54</oat>
+      <oat_isa_dev>-4</oat_isa_dev>
+      <wind_dir>303</wind_dir>
+      <wind_spd>73</wind_spd>
+      <shear>0</shear>
+      <tropopause_feet>34600</tropopause_feet>
+      <ground_height>0</ground_height>
+      <mora>2600</mora>
+      <fir>LECB</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>1000,3000,5000,7000,9000,11000,13000,15000,17000,19000,21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,45000,49000,53000,57000,61000,65000,69000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>260</wind_dir>
+          <wind_spd>21</wind_spd>
+          <oat>11</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>286</wind_dir>
+          <wind_spd>29</wind_spd>
+          <oat>3</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>295</wind_dir>
+          <wind_spd>35</wind_spd>
+          <oat>-5</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>301</wind_dir>
+          <wind_spd>39</wind_spd>
+          <oat>-12</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>300</wind_dir>
+          <wind_spd>43</wind_spd>
+          <oat>-20</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>302</wind_dir>
+          <wind_spd>50</wind_spd>
+          <oat>-34</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>301</wind_dir>
+          <wind_spd>70</wind_spd>
+          <oat>-48</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>304</wind_dir>
+          <wind_spd>75</wind_spd>
+          <oat>-56</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>317</wind_dir>
+          <wind_spd>59</wind_spd>
+          <oat>-57</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>322</wind_dir>
+          <wind_spd>46</wind_spd>
+          <oat>-58</oat>
+        </level>
+      </wind_data>
+      <fir_crossing/>
+    </fix>
+    <fix>
+      <ident>AGENA</ident>
+      <name>AGENA</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>41.544806</pos_lat>
+      <pos_long>3.488611</pos_long>
+      <stage>CLB</stage>
+      <via_airway>UM985</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>14</distance>
+      <track_true>077</track_true>
+      <track_mag>076</track_mag>
+      <heading_true>072</heading_true>
+      <heading_mag>071</heading_mag>
+      <altitude_feet>35700</altitude_feet>
+      <ind_airspeed>275</ind_airspeed>
+      <true_airspeed>472</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.82</mach_thousandths>
+      <wind_component>38</wind_component>
+      <groundspeed>510</groundspeed>
+      <time_leg>71</time_leg>
+      <time_total>677</time_total>
+      <fuel_flow>32752</fuel_flow>
+      <fuel_leg>1429</fuel_leg>
+      <fuel_totalused>6712</fuel_totalused>
+      <fuel_min_onboard>33181</fuel_min_onboard>
+      <fuel_plan_onboard>36922</fuel_plan_onboard>
+      <oat>-55</oat>
+      <oat_isa_dev>1</oat_isa_dev>
+      <wind_dir>304</wind_dir>
+      <wind_spd>58</wind_spd>
+      <shear>0</shear>
+      <tropopause_feet>33400</tropopause_feet>
+      <ground_height>366</ground_height>
+      <mora>2000</mora>
+      <fir>LECB</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>1000,3000,5000,7000,9000,11000,13000,15000,17000,19000,21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,45000,49000,53000,57000,61000,65000,69000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>302</wind_dir>
+          <wind_spd>2</wind_spd>
+          <oat>8</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>274</wind_dir>
+          <wind_spd>14</wind_spd>
+          <oat>2</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>305</wind_dir>
+          <wind_spd>30</wind_spd>
+          <oat>-5</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>314</wind_dir>
+          <wind_spd>44</wind_spd>
+          <oat>-13</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>310</wind_dir>
+          <wind_spd>40</wind_spd>
+          <oat>-21</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>293</wind_dir>
+          <wind_spd>36</wind_spd>
+          <oat>-35</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>290</wind_dir>
+          <wind_spd>50</wind_spd>
+          <oat>-49</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>298</wind_dir>
+          <wind_spd>60</wind_spd>
+          <oat>-55</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>316</wind_dir>
+          <wind_spd>55</wind_spd>
+          <oat>-56</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>322</wind_dir>
+          <wind_spd>45</wind_spd>
+          <oat>-58</oat>
+        </level>
+      </wind_data>
+      <fir_crossing/>
+    </fix>
+    <fix>
+      <ident>MAROT</ident>
+      <name>MAROT</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>41.605667</pos_lat>
+      <pos_long>3.860250</pos_long>
+      <stage>CLB</stage>
+      <via_airway>UM985</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>17</distance>
+      <track_true>077</track_true>
+      <track_mag>076</track_mag>
+      <heading_true>072</heading_true>
+      <heading_mag>071</heading_mag>
+      <altitude_feet>37200</altitude_feet>
+      <ind_airspeed>266</ind_airspeed>
+      <true_airspeed>471</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.82</mach_thousandths>
+      <wind_component>32</wind_component>
+      <groundspeed>503</groundspeed>
+      <time_leg>86</time_leg>
+      <time_total>763</time_total>
+      <fuel_flow>32012</fuel_flow>
+      <fuel_leg>1735</fuel_leg>
+      <fuel_totalused>8447</fuel_totalused>
+      <fuel_min_onboard>31446</fuel_min_onboard>
+      <fuel_plan_onboard>35187</fuel_plan_onboard>
+      <oat>-56</oat>
+      <oat_isa_dev>1</oat_isa_dev>
+      <wind_dir>307</wind_dir>
+      <wind_spd>52</wind_spd>
+      <shear>0</shear>
+      <tropopause_feet>34600</tropopause_feet>
+      <ground_height>0</ground_height>
+      <mora>2000</mora>
+      <fir>LECB</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>1000,3000,5000,7000,9000,11000,13000,15000,17000,19000,21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,45000,49000,53000,57000,61000,65000,69000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>239</wind_dir>
+          <wind_spd>13</wind_spd>
+          <oat>11</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>273</wind_dir>
+          <wind_spd>18</wind_spd>
+          <oat>1</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>308</wind_dir>
+          <wind_spd>27</wind_spd>
+          <oat>-6</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>311</wind_dir>
+          <wind_spd>37</wind_spd>
+          <oat>-13</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>302</wind_dir>
+          <wind_spd>36</wind_spd>
+          <oat>-20</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>293</wind_dir>
+          <wind_spd>40</wind_spd>
+          <oat>-35</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>292</wind_dir>
+          <wind_spd>49</wind_spd>
+          <oat>-49</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>300</wind_dir>
+          <wind_spd>53</wind_spd>
+          <oat>-55</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>311</wind_dir>
+          <wind_spd>51</wind_spd>
+          <oat>-56</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>320</wind_dir>
+          <wind_spd>45</wind_spd>
+          <oat>-58</oat>
+        </level>
+      </wind_data>
+      <fir_crossing/>
+    </fix>
+    <fix>
+      <ident>TOC</ident>
+      <name>TOP OF CLIMB</name>
+      <type>ltlg</type>
+      <frequency/>
+      <pos_lat>41.609191</pos_lat>
+      <pos_long>3.882021</pos_long>
+      <stage>CLB</stage>
+      <via_airway>UM985</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>1</distance>
+      <track_true>077</track_true>
+      <track_mag>076</track_mag>
+      <heading_true>072</heading_true>
+      <heading_mag>071</heading_mag>
+      <altitude_feet>38000</altitude_feet>
+      <ind_airspeed>261</ind_airspeed>
+      <true_airspeed>471</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.82</mach_thousandths>
+      <wind_component>30</wind_component>
+      <groundspeed>501</groundspeed>
+      <time_leg>5</time_leg>
+      <time_total>768</time_total>
+      <fuel_flow>31676</fuel_flow>
+      <fuel_leg>102</fuel_leg>
+      <fuel_totalused>8549</fuel_totalused>
+      <fuel_min_onboard>31344</fuel_min_onboard>
+      <fuel_plan_onboard>35085</fuel_plan_onboard>
+      <oat>-56</oat>
+      <oat_isa_dev>1</oat_isa_dev>
+      <wind_dir>309</wind_dir>
+      <wind_spd>52</wind_spd>
+      <shear>2</shear>
+      <tropopause_feet>34600</tropopause_feet>
+      <ground_height>0</ground_height>
+      <mora>2000</mora>
+      <fir>LECB</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>1000,3000,5000,7000,9000,11000,13000,15000,17000,19000,21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,45000,49000,53000,57000,61000,65000,69000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>239</wind_dir>
+          <wind_spd>13</wind_spd>
+          <oat>11</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>273</wind_dir>
+          <wind_spd>18</wind_spd>
+          <oat>1</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>308</wind_dir>
+          <wind_spd>27</wind_spd>
+          <oat>-6</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>311</wind_dir>
+          <wind_spd>37</wind_spd>
+          <oat>-13</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>302</wind_dir>
+          <wind_spd>36</wind_spd>
+          <oat>-20</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>293</wind_dir>
+          <wind_spd>40</wind_spd>
+          <oat>-35</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>292</wind_dir>
+          <wind_spd>49</wind_spd>
+          <oat>-49</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>300</wind_dir>
+          <wind_spd>53</wind_spd>
+          <oat>-55</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>311</wind_dir>
+          <wind_spd>51</wind_spd>
+          <oat>-56</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>320</wind_dir>
+          <wind_spd>45</wind_spd>
+          <oat>-58</oat>
+        </level>
+      </wind_data>
+      <fir_crossing/>
+    </fix>
+    <fix>
+      <ident>LUMAS</ident>
+      <name>LUMAS</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>41.733222</pos_lat>
+      <pos_long>4.666667</pos_long>
+      <stage>CRZ</stage>
+      <via_airway>UM985</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>36</distance>
+      <track_true>077</track_true>
+      <track_mag>077</track_mag>
+      <heading_true>072</heading_true>
+      <heading_mag>071</heading_mag>
+      <altitude_feet>38000</altitude_feet>
+      <ind_airspeed>245</ind_airspeed>
+      <true_airspeed>472</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.822</mach_thousandths>
+      <wind_component>25</wind_component>
+      <groundspeed>497</groundspeed>
+      <time_leg>261</time_leg>
+      <time_total>1029</time_total>
+      <fuel_flow>13845</fuel_flow>
+      <fuel_leg>1003</fuel_leg>
+      <fuel_totalused>9552</fuel_totalused>
+      <fuel_min_onboard>30341</fuel_min_onboard>
+      <fuel_plan_onboard>34082</fuel_plan_onboard>
+      <oat>-56</oat>
+      <oat_isa_dev>1</oat_isa_dev>
+      <wind_dir>313</wind_dir>
+      <wind_spd>48</wind_spd>
+      <shear>2</shear>
+      <tropopause_feet>33200</tropopause_feet>
+      <ground_height>0</ground_height>
+      <mora>2000</mora>
+      <fir>LECB</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>20000,22000,24000,26000,28000,30000,32000,34000,36000,38000,40000,43000,47000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>263</wind_dir>
+          <wind_spd>7</wind_spd>
+          <oat>11</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>284</wind_dir>
+          <wind_spd>17</wind_spd>
+          <oat>1</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>307</wind_dir>
+          <wind_spd>30</wind_spd>
+          <oat>-7</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>302</wind_dir>
+          <wind_spd>34</wind_spd>
+          <oat>-13</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>301</wind_dir>
+          <wind_spd>36</wind_spd>
+          <oat>-21</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>304</wind_dir>
+          <wind_spd>41</wind_spd>
+          <oat>-35</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>300</wind_dir>
+          <wind_spd>47</wind_spd>
+          <oat>-49</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>303</wind_dir>
+          <wind_spd>52</wind_spd>
+          <oat>-57</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>315</wind_dir>
+          <wind_spd>48</wind_spd>
+          <oat>-56</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>321</wind_dir>
+          <wind_spd>46</wind_spd>
+          <oat>-58</oat>
+        </level>
+      </wind_data>
+      <fir_crossing/>
+    </fix>
+    <fix>
+      <ident>OBLAD</ident>
+      <name>OBLAD</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>41.810000</pos_lat>
+      <pos_long>5.013333</pos_long>
+      <stage>CRZ</stage>
+      <via_airway>UM985</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>16</distance>
+      <track_true>073</track_true>
+      <track_mag>072</track_mag>
+      <heading_true>068</heading_true>
+      <heading_mag>066</heading_mag>
+      <altitude_feet>38000</altitude_feet>
+      <ind_airspeed>245</ind_airspeed>
+      <true_airspeed>472</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.822</mach_thousandths>
+      <wind_component>22</wind_component>
+      <groundspeed>494</groundspeed>
+      <time_leg>117</time_leg>
+      <time_total>1145</time_total>
+      <fuel_flow>13832</fuel_flow>
+      <fuel_leg>448</fuel_leg>
+      <fuel_totalused>10000</fuel_totalused>
+      <fuel_min_onboard>29893</fuel_min_onboard>
+      <fuel_plan_onboard>33634</fuel_plan_onboard>
+      <oat>-56</oat>
+      <oat_isa_dev>1</oat_isa_dev>
+      <wind_dir>313</wind_dir>
+      <wind_spd>48</wind_spd>
+      <shear>2</shear>
+      <tropopause_feet>33200</tropopause_feet>
+      <ground_height>0</ground_height>
+      <mora>2000</mora>
+      <fir>LFFF</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,45000,49000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>263</wind_dir>
+          <wind_spd>7</wind_spd>
+          <oat>11</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>285</wind_dir>
+          <wind_spd>17</wind_spd>
+          <oat>1</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>307</wind_dir>
+          <wind_spd>30</wind_spd>
+          <oat>-7</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>302</wind_dir>
+          <wind_spd>33</wind_spd>
+          <oat>-13</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>300</wind_dir>
+          <wind_spd>36</wind_spd>
+          <oat>-21</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>304</wind_dir>
+          <wind_spd>41</wind_spd>
+          <oat>-35</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>300</wind_dir>
+          <wind_spd>47</wind_spd>
+          <oat>-49</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>303</wind_dir>
+          <wind_spd>52</wind_spd>
+          <oat>-57</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>315</wind_dir>
+          <wind_spd>48</wind_spd>
+          <oat>-56</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>321</wind_dir>
+          <wind_spd>46</wind_spd>
+          <oat>-58</oat>
+        </level>
+      </wind_data>
+      <fir_crossing>
+        <fir>
+          <fir_icao>LFFF</fir_icao>
+          <fir_name>FRANCE FIR/UIR</fir_name>
+          <pos_lat_entry>41.73263</pos_lat_entry>
+          <pos_long_entry>4.6667</pos_long_entry>
+        </fir>
+      </fir_crossing>
+    </fix>
+    <fix>
+      <ident>OLNUL</ident>
+      <name>OLNUL</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>41.667778</pos_lat>
+      <pos_long>5.385000</pos_long>
+      <stage>CRZ</stage>
+      <via_airway>UZ194</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>19</distance>
+      <track_true>117</track_true>
+      <track_mag>115</track_mag>
+      <heading_true>115</heading_true>
+      <heading_mag>113</heading_mag>
+      <altitude_feet>39000</altitude_feet>
+      <ind_airspeed>240</ind_airspeed>
+      <true_airspeed>473</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.824</mach_thousandths>
+      <wind_component>45</wind_component>
+      <groundspeed>518</groundspeed>
+      <time_leg>157</time_leg>
+      <time_total>1303</time_total>
+      <fuel_flow>13849</fuel_flow>
+      <fuel_leg>633</fuel_leg>
+      <fuel_totalused>10633</fuel_totalused>
+      <fuel_min_onboard>29260</fuel_min_onboard>
+      <fuel_plan_onboard>33001</fuel_plan_onboard>
+      <oat>-56</oat>
+      <oat_isa_dev>1</oat_isa_dev>
+      <wind_dir>315</wind_dir>
+      <wind_spd>48</wind_spd>
+      <shear>2</shear>
+      <tropopause_feet>33200</tropopause_feet>
+      <ground_height>0</ground_height>
+      <mora>2000</mora>
+      <fir>LFFF</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,45000,49000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>264</wind_dir>
+          <wind_spd>7</wind_spd>
+          <oat>11</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>285</wind_dir>
+          <wind_spd>17</wind_spd>
+          <oat>1</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>308</wind_dir>
+          <wind_spd>30</wind_spd>
+          <oat>-7</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>302</wind_dir>
+          <wind_spd>33</wind_spd>
+          <oat>-13</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>300</wind_dir>
+          <wind_spd>36</wind_spd>
+          <oat>-21</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>304</wind_dir>
+          <wind_spd>41</wind_spd>
+          <oat>-35</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>300</wind_dir>
+          <wind_spd>46</wind_spd>
+          <oat>-49</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>303</wind_dir>
+          <wind_spd>51</wind_spd>
+          <oat>-56</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>315</wind_dir>
+          <wind_spd>48</wind_spd>
+          <oat>-56</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>321</wind_dir>
+          <wind_spd>46</wind_spd>
+          <oat>-58</oat>
+        </level>
+      </wind_data>
+      <fir_crossing/>
+    </fix>
+    <fix>
+      <ident>NIVDA</ident>
+      <name>NIVDA</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>41.243333</pos_lat>
+      <pos_long>6.568611</pos_long>
+      <stage>CRZ</stage>
+      <via_airway>UZ194</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>59</distance>
+      <track_true>115</track_true>
+      <track_mag>113</track_mag>
+      <heading_true>113</heading_true>
+      <heading_mag>111</heading_mag>
+      <altitude_feet>39000</altitude_feet>
+      <ind_airspeed>240</ind_airspeed>
+      <true_airspeed>471</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.824</mach_thousandths>
+      <wind_component>46</wind_component>
+      <groundspeed>517</groundspeed>
+      <time_leg>411</time_leg>
+      <time_total>1713</time_total>
+      <fuel_flow>13724</fuel_flow>
+      <fuel_leg>1566</fuel_leg>
+      <fuel_totalused>12199</fuel_totalused>
+      <fuel_min_onboard>27694</fuel_min_onboard>
+      <fuel_plan_onboard>31435</fuel_plan_onboard>
+      <oat>-58</oat>
+      <oat_isa_dev>-1</oat_isa_dev>
+      <wind_dir>313</wind_dir>
+      <wind_spd>49</wind_spd>
+      <shear>1</shear>
+      <tropopause_feet>33900</tropopause_feet>
+      <ground_height>0</ground_height>
+      <mora>2000</mora>
+      <fir>LFFF</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,45000,49000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>274</wind_dir>
+          <wind_spd>20</wind_spd>
+          <oat>12</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>277</wind_dir>
+          <wind_spd>27</wind_spd>
+          <oat>-1</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>296</wind_dir>
+          <wind_spd>30</wind_spd>
+          <oat>-8</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>313</wind_dir>
+          <wind_spd>41</wind_spd>
+          <oat>-14</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>316</wind_dir>
+          <wind_spd>45</wind_spd>
+          <oat>-21</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>319</wind_dir>
+          <wind_spd>49</wind_spd>
+          <oat>-34</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>310</wind_dir>
+          <wind_spd>60</wind_spd>
+          <oat>-50</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>317</wind_dir>
+          <wind_spd>57</wind_spd>
+          <oat>-57</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>313</wind_dir>
+          <wind_spd>49</wind_spd>
+          <oat>-58</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>318</wind_dir>
+          <wind_spd>44</wind_spd>
+          <oat>-57</oat>
+        </level>
+      </wind_data>
+      <fir_crossing/>
+    </fix>
+    <fix>
+      <ident>UTORU</ident>
+      <name>UTORU</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>41.180556</pos_lat>
+      <pos_long>7.831389</pos_long>
+      <stage>CRZ</stage>
+      <via_airway>UZ194</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>57</distance>
+      <track_true>093</track_true>
+      <track_mag>091</track_mag>
+      <heading_true>089</heading_true>
+      <heading_mag>087</heading_mag>
+      <altitude_feet>39000</altitude_feet>
+      <ind_airspeed>240</ind_airspeed>
+      <true_airspeed>472</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.824</mach_thousandths>
+      <wind_component>39</wind_component>
+      <groundspeed>511</groundspeed>
+      <time_leg>402</time_leg>
+      <time_total>2115</time_total>
+      <fuel_flow>13711</fuel_flow>
+      <fuel_leg>1529</fuel_leg>
+      <fuel_totalused>13728</fuel_totalused>
+      <fuel_min_onboard>26165</fuel_min_onboard>
+      <fuel_plan_onboard>29906</fuel_plan_onboard>
+      <oat>-57</oat>
+      <oat_isa_dev>0</oat_isa_dev>
+      <wind_dir>314</wind_dir>
+      <wind_spd>54</wind_spd>
+      <shear>2</shear>
+      <tropopause_feet>34300</tropopause_feet>
+      <ground_height>1</ground_height>
+      <mora>2000</mora>
+      <fir>LFFF</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,45000,49000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>279</wind_dir>
+          <wind_spd>25</wind_spd>
+          <oat>12</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>281</wind_dir>
+          <wind_spd>27</wind_spd>
+          <oat>-1</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>292</wind_dir>
+          <wind_spd>19</wind_spd>
+          <oat>-9</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>299</wind_dir>
+          <wind_spd>29</wind_spd>
+          <oat>-15</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>313</wind_dir>
+          <wind_spd>46</wind_spd>
+          <oat>-22</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>321</wind_dir>
+          <wind_spd>56</wind_spd>
+          <oat>-35</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>317</wind_dir>
+          <wind_spd>62</wind_spd>
+          <oat>-50</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>319</wind_dir>
+          <wind_spd>56</wind_spd>
+          <oat>-57</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>314</wind_dir>
+          <wind_spd>54</wind_spd>
+          <oat>-57</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>317</wind_dir>
+          <wind_spd>38</wind_spd>
+          <oat>-58</oat>
+        </level>
+      </wind_data>
+      <fir_crossing/>
+    </fix>
+    <fix>
+      <ident>PELOS</ident>
+      <name>PELOS</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>41.161944</pos_lat>
+      <pos_long>8.161389</pos_long>
+      <stage>CRZ</stage>
+      <via_airway>UZ194</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>15</distance>
+      <track_true>094</track_true>
+      <track_mag>092</track_mag>
+      <heading_true>090</heading_true>
+      <heading_mag>088</heading_mag>
+      <altitude_feet>39000</altitude_feet>
+      <ind_airspeed>240</ind_airspeed>
+      <true_airspeed>472</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.824</mach_thousandths>
+      <wind_component>40</wind_component>
+      <groundspeed>512</groundspeed>
+      <time_leg>105</time_leg>
+      <time_total>2221</time_total>
+      <fuel_flow>13679</fuel_flow>
+      <fuel_leg>401</fuel_leg>
+      <fuel_totalused>14129</fuel_totalused>
+      <fuel_min_onboard>25764</fuel_min_onboard>
+      <fuel_plan_onboard>29505</fuel_plan_onboard>
+      <oat>-57</oat>
+      <oat_isa_dev>0</oat_isa_dev>
+      <wind_dir>314</wind_dir>
+      <wind_spd>54</wind_spd>
+      <shear>2</shear>
+      <tropopause_feet>34300</tropopause_feet>
+      <ground_height>1</ground_height>
+      <mora>2000</mora>
+      <fir>LFFF</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>2000,4000,6000,8000,10000,12000,14000,16000,18000,20000,22000,24000,26000,28000,30000,32000,34000,36000,38000,40000,43000,47000,51000,55000,59000,63000,67000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>279</wind_dir>
+          <wind_spd>25</wind_spd>
+          <oat>12</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>281</wind_dir>
+          <wind_spd>27</wind_spd>
+          <oat>-1</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>292</wind_dir>
+          <wind_spd>19</wind_spd>
+          <oat>-9</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>298</wind_dir>
+          <wind_spd>29</wind_spd>
+          <oat>-15</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>312</wind_dir>
+          <wind_spd>45</wind_spd>
+          <oat>-22</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>321</wind_dir>
+          <wind_spd>56</wind_spd>
+          <oat>-35</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>317</wind_dir>
+          <wind_spd>62</wind_spd>
+          <oat>-50</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>319</wind_dir>
+          <wind_spd>56</wind_spd>
+          <oat>-57</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>314</wind_dir>
+          <wind_spd>53</wind_spd>
+          <oat>-57</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>317</wind_dir>
+          <wind_spd>38</wind_spd>
+          <oat>-58</oat>
+        </level>
+      </wind_data>
+      <fir_crossing/>
+    </fix>
+    <fix>
+      <ident>IBROS</ident>
+      <name>IBROS</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>41.794722</pos_lat>
+      <pos_long>10.048056</pos_long>
+      <stage>CRZ</stage>
+      <via_airway>DCT</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>93</distance>
+      <track_true>065</track_true>
+      <track_mag>063</track_mag>
+      <heading_true>059</heading_true>
+      <heading_mag>057</heading_mag>
+      <altitude_feet>38000</altitude_feet>
+      <ind_airspeed>245</ind_airspeed>
+      <true_airspeed>473</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.822</mach_thousandths>
+      <wind_component>9</wind_component>
+      <groundspeed>482</groundspeed>
+      <time_leg>732</time_leg>
+      <time_total>2953</time_total>
+      <fuel_flow>13697</fuel_flow>
+      <fuel_leg>2566</fuel_leg>
+      <fuel_totalused>16695</fuel_totalused>
+      <fuel_min_onboard>23198</fuel_min_onboard>
+      <fuel_plan_onboard>26939</fuel_plan_onboard>
+      <oat>-55</oat>
+      <oat_isa_dev>2</oat_isa_dev>
+      <wind_dir>321</wind_dir>
+      <wind_spd>48</wind_spd>
+      <shear>3</shear>
+      <tropopause_feet>32900</tropopause_feet>
+      <ground_height>0</ground_height>
+      <mora>5100</mora>
+      <fir>LIRR</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>2000,4000,6000,8000,10000,12000,14000,16000,18000,20000,22000,24000,26000,28000,30000,32000,34000,36000,38000,40000,43000,47000,51000,55000,59000,63000,67000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>257</wind_dir>
+          <wind_spd>4</wind_spd>
+          <oat>12</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>208</wind_dir>
+          <wind_spd>3</wind_spd>
+          <oat>-0</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>281</wind_dir>
+          <wind_spd>10</wind_spd>
+          <oat>-10</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>282</wind_dir>
+          <wind_spd>19</wind_spd>
+          <oat>-18</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>297</wind_dir>
+          <wind_spd>25</wind_spd>
+          <oat>-25</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>317</wind_dir>
+          <wind_spd>45</wind_spd>
+          <oat>-38</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>324</wind_dir>
+          <wind_spd>77</wind_spd>
+          <oat>-50</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>323</wind_dir>
+          <wind_spd>60</wind_spd>
+          <oat>-55</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>320</wind_dir>
+          <wind_spd>45</wind_spd>
+          <oat>-55</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>307</wind_dir>
+          <wind_spd>32</wind_spd>
+          <oat>-56</oat>
+        </level>
+      </wind_data>
+      <fir_crossing>
+        <fir>
+          <fir_icao>LIRR</fir_icao>
+          <fir_name>ROME FIR/UIR</fir_name>
+          <pos_lat_entry>41.15999</pos_lat_entry>
+          <pos_long_entry>8.1594</pos_long_entry>
+        </fir>
+        <fir>
+          <fir_icao>LFFF</fir_icao>
+          <fir_name>FRANCE FIR/UIR</fir_name>
+          <pos_lat_entry>41.33567</pos_lat_entry>
+          <pos_long_entry>8.68297</pos_long_entry>
+        </fir>
+        <fir>
+          <fir_icao>LIRR</fir_icao>
+          <fir_name>ROME FIR/UIR</fir_name>
+          <pos_lat_entry>41.69369</pos_lat_entry>
+          <pos_long_entry>9.75</pos_long_entry>
+        </fir>
+      </fir_crossing>
+    </fix>
+    <fix>
+      <ident>MEDAL</ident>
+      <name>MEDAL</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>42.052778</pos_lat>
+      <pos_long>11.376389</pos_long>
+      <stage>CRZ</stage>
+      <via_airway>DCT</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>61</distance>
+      <track_true>074</track_true>
+      <track_mag>072</track_mag>
+      <heading_true>070</heading_true>
+      <heading_mag>067</heading_mag>
+      <altitude_feet>38000</altitude_feet>
+      <ind_airspeed>245</ind_airspeed>
+      <true_airspeed>474</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.821</mach_thousandths>
+      <wind_component>17</wind_component>
+      <groundspeed>491</groundspeed>
+      <time_leg>447</time_leg>
+      <time_total>3400</time_total>
+      <fuel_flow>13650</fuel_flow>
+      <fuel_leg>1696</fuel_leg>
+      <fuel_totalused>18391</fuel_totalused>
+      <fuel_min_onboard>21502</fuel_min_onboard>
+      <fuel_plan_onboard>25243</fuel_plan_onboard>
+      <oat>-54</oat>
+      <oat_isa_dev>3</oat_isa_dev>
+      <wind_dir>316</wind_dir>
+      <wind_spd>40</wind_spd>
+      <shear>3</shear>
+      <tropopause_feet>31700</tropopause_feet>
+      <ground_height>0</ground_height>
+      <mora>2000</mora>
+      <fir>LIRR</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>2000,4000,6000,8000,10000,12000,14000,16000,18000,20000,22000,24000,26000,28000,30000,32000,34000,36000,38000,40000,43000,47000,51000,55000,59000,63000,67000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>331</wind_dir>
+          <wind_spd>7</wind_spd>
+          <oat>12</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>270</wind_dir>
+          <wind_spd>8</wind_spd>
+          <oat>-0</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>253</wind_dir>
+          <wind_spd>12</wind_spd>
+          <oat>-10</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>277</wind_dir>
+          <wind_spd>16</wind_spd>
+          <oat>-18</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>289</wind_dir>
+          <wind_spd>21</wind_spd>
+          <oat>-26</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>310</wind_dir>
+          <wind_spd>45</wind_spd>
+          <oat>-39</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>319</wind_dir>
+          <wind_spd>62</wind_spd>
+          <oat>-50</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>320</wind_dir>
+          <wind_spd>54</wind_spd>
+          <oat>-54</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>314</wind_dir>
+          <wind_spd>37</wind_spd>
+          <oat>-54</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>301</wind_dir>
+          <wind_spd>30</wind_spd>
+          <oat>-56</oat>
+        </level>
+      </wind_data>
+      <fir_crossing/>
+    </fix>
+    <fix>
+      <ident>TIBER</ident>
+      <name>TIBER</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>42.248875</pos_lat>
+      <pos_long>12.599000</pos_long>
+      <stage>CRZ</stage>
+      <via_airway>DCT</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>56</distance>
+      <track_true>077</track_true>
+      <track_mag>074</track_mag>
+      <heading_true>075</heading_true>
+      <heading_mag>072</heading_mag>
+      <altitude_feet>38000</altitude_feet>
+      <ind_airspeed>245</ind_airspeed>
+      <true_airspeed>476</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.821</mach_thousandths>
+      <wind_component>22</wind_component>
+      <groundspeed>498</groundspeed>
+      <time_leg>405</time_leg>
+      <time_total>3805</time_total>
+      <fuel_flow>13680</fuel_flow>
+      <fuel_leg>1538</fuel_leg>
+      <fuel_totalused>19929</fuel_totalused>
+      <fuel_min_onboard>19964</fuel_min_onboard>
+      <fuel_plan_onboard>23705</fuel_plan_onboard>
+      <oat>-52</oat>
+      <oat_isa_dev>5</oat_isa_dev>
+      <wind_dir>298</wind_dir>
+      <wind_spd>29</wind_spd>
+      <shear>1</shear>
+      <tropopause_feet>29300</tropopause_feet>
+      <ground_height>2394</ground_height>
+      <mora>4800</mora>
+      <fir>LIRR</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>2000,4000,6000,8000,10000,12000,14000,16000,18000,20000,22000,24000,26000,28000,30000,32000,34000,36000,38000,40000,43000,47000,51000,55000,59000,63000,67000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>133</wind_dir>
+          <wind_spd>3</wind_spd>
+          <oat>9</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>170</wind_dir>
+          <wind_spd>9</wind_spd>
+          <oat>-1</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>265</wind_dir>
+          <wind_spd>12</wind_spd>
+          <oat>-10</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>263</wind_dir>
+          <wind_spd>12</wind_spd>
+          <oat>-19</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>263</wind_dir>
+          <wind_spd>14</wind_spd>
+          <oat>-27</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>279</wind_dir>
+          <wind_spd>22</wind_spd>
+          <oat>-42</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>304</wind_dir>
+          <wind_spd>36</wind_spd>
+          <oat>-51</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>306</wind_dir>
+          <wind_spd>34</wind_spd>
+          <oat>-52</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>296</wind_dir>
+          <wind_spd>28</wind_spd>
+          <oat>-53</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>290</wind_dir>
+          <wind_spd>24</wind_spd>
+          <oat>-55</oat>
+        </level>
+      </wind_data>
+      <fir_crossing/>
+    </fix>
+    <fix>
+      <ident>ETRIN</ident>
+      <name>ETRIN</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>42.605833</pos_lat>
+      <pos_long>14.720000</pos_long>
+      <stage>CRZ</stage>
+      <via_airway>DCT</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>96</distance>
+      <track_true>076</track_true>
+      <track_mag>073</track_mag>
+      <heading_true>075</heading_true>
+      <heading_mag>072</heading_mag>
+      <altitude_feet>38000</altitude_feet>
+      <ind_airspeed>245</ind_airspeed>
+      <true_airspeed>476</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.821</mach_thousandths>
+      <wind_component>17</wind_component>
+      <groundspeed>493</groundspeed>
+      <time_leg>701</time_leg>
+      <time_total>4506</time_total>
+      <fuel_flow>13611</fuel_flow>
+      <fuel_leg>2650</fuel_leg>
+      <fuel_totalused>22579</fuel_totalused>
+      <fuel_min_onboard>17314</fuel_min_onboard>
+      <fuel_plan_onboard>21055</fuel_plan_onboard>
+      <oat>-52</oat>
+      <oat_isa_dev>5</oat_isa_dev>
+      <wind_dir>273</wind_dir>
+      <wind_spd>18</wind_spd>
+      <shear>1</shear>
+      <tropopause_feet>28400</tropopause_feet>
+      <ground_height>0</ground_height>
+      <mora>10800</mora>
+      <fir>LIBB</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>2000,4000,6000,8000,10000,12000,14000,16000,18000,20000,22000,24000,26000,28000,30000,32000,34000,36000,38000,40000,43000,47000,51000,55000,59000,63000,67000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>257</wind_dir>
+          <wind_spd>5</wind_spd>
+          <oat>13</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>151</wind_dir>
+          <wind_spd>2</wind_spd>
+          <oat>0</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>165</wind_dir>
+          <wind_spd>7</wind_spd>
+          <oat>-10</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>211</wind_dir>
+          <wind_spd>14</wind_spd>
+          <oat>-19</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>217</wind_dir>
+          <wind_spd>15</wind_spd>
+          <oat>-27</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>231</wind_dir>
+          <wind_spd>10</wind_spd>
+          <oat>-43</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>229</wind_dir>
+          <wind_spd>11</wind_spd>
+          <oat>-54</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>263</wind_dir>
+          <wind_spd>11</wind_spd>
+          <oat>-53</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>274</wind_dir>
+          <wind_spd>19</wind_spd>
+          <oat>-52</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>272</wind_dir>
+          <wind_spd>17</wind_spd>
+          <oat>-55</oat>
+        </level>
+      </wind_data>
+      <fir_crossing>
+        <fir>
+          <fir_icao>LIBB</fir_icao>
+          <fir_name>BRINDISI FIR/UIR</fir_name>
+          <pos_lat_entry>42.40526</pos_lat_entry>
+          <pos_long_entry>13.53662</pos_long_entry>
+        </fir>
+      </fir_crossing>
+    </fix>
+    <fix>
+      <ident>XOLTA</ident>
+      <name>XOLTA</name>
+      <type>wpt</type>
+      <frequency/>
+      <pos_lat>42.703889</pos_lat>
+      <pos_long>15.748333</pos_long>
+      <stage>CRZ</stage>
+      <via_airway>DCT</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>46</distance>
+      <track_true>082</track_true>
+      <track_mag>079</track_mag>
+      <heading_true>082</heading_true>
+      <heading_mag>078</heading_mag>
+      <altitude_feet>38000</altitude_feet>
+      <ind_airspeed>245</ind_airspeed>
+      <true_airspeed>475</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.82</mach_thousandths>
+      <wind_component>19</wind_component>
+      <groundspeed>494</groundspeed>
+      <time_leg>335</time_leg>
+      <time_total>4841</time_total>
+      <fuel_flow>13544</fuel_flow>
+      <fuel_leg>1261</fuel_leg>
+      <fuel_totalused>23840</fuel_totalused>
+      <fuel_min_onboard>16053</fuel_min_onboard>
+      <fuel_plan_onboard>19794</fuel_plan_onboard>
+      <oat>-52</oat>
+      <oat_isa_dev>5</oat_isa_dev>
+      <wind_dir>255</wind_dir>
+      <wind_spd>19</wind_spd>
+      <shear>1</shear>
+      <tropopause_feet>28900</tropopause_feet>
+      <ground_height>21</ground_height>
+      <mora>2000</mora>
+      <fir>LIBB</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>1000,3000,5000,7000,9000,11000,13000,15000,17000,19000,21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,45000,49000,53000,57000,61000,65000,69000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>189</wind_dir>
+          <wind_spd>4</wind_spd>
+          <oat>13</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>175</wind_dir>
+          <wind_spd>4</wind_spd>
+          <oat>1</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>193</wind_dir>
+          <wind_spd>10</wind_spd>
+          <oat>-9</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>210</wind_dir>
+          <wind_spd>21</wind_spd>
+          <oat>-19</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>198</wind_dir>
+          <wind_spd>18</wind_spd>
+          <oat>-28</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>180</wind_dir>
+          <wind_spd>10</wind_spd>
+          <oat>-43</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>212</wind_dir>
+          <wind_spd>13</wind_spd>
+          <oat>-54</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>238</wind_dir>
+          <wind_spd>13</wind_spd>
+          <oat>-53</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>258</wind_dir>
+          <wind_spd>19</wind_spd>
+          <oat>-52</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>263</wind_dir>
+          <wind_spd>16</wind_spd>
+          <oat>-55</oat>
+        </level>
+      </wind_data>
+      <fir_crossing/>
+    </fix>
+    <fix>
+      <ident>TOD</ident>
+      <name>TOP OF DESCENT</name>
+      <type>ltlg</type>
+      <frequency/>
+      <pos_lat>42.947398</pos_lat>
+      <pos_long>16.290622</pos_long>
+      <stage>CRZ</stage>
+      <via_airway>DCT</via_airway>
+      <is_sid_star>0</is_sid_star>
+      <distance>28</distance>
+      <track_true>058</track_true>
+      <track_mag>055</track_mag>
+      <heading_true>057</heading_true>
+      <heading_mag>053</heading_mag>
+      <altitude_feet>39000</altitude_feet>
+      <ind_airspeed>240</ind_airspeed>
+      <true_airspeed>477</true_airspeed>
+      <mach>0.82</mach>
+      <mach_thousandths>0.824</mach_thousandths>
+      <wind_component>18</wind_component>
+      <groundspeed>495</groundspeed>
+      <time_leg>204</time_leg>
+      <time_total>5045</time_total>
+      <fuel_flow>13796</fuel_flow>
+      <fuel_leg>780</fuel_leg>
+      <fuel_totalused>24620</fuel_totalused>
+      <fuel_min_onboard>15273</fuel_min_onboard>
+      <fuel_plan_onboard>19014</fuel_plan_onboard>
+      <oat>-52</oat>
+      <oat_isa_dev>5</oat_isa_dev>
+      <wind_dir>258</wind_dir>
+      <wind_spd>19</wind_spd>
+      <shear>1</shear>
+      <tropopause_feet>28900</tropopause_feet>
+      <ground_height>21</ground_height>
+      <mora>2000</mora>
+      <fir>LQSB</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>1000,3000,5000,7000,9000,11000,13000,15000,17000,19000,21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,45000,49000,53000,57000,61000,65000,69000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>189</wind_dir>
+          <wind_spd>4</wind_spd>
+          <oat>13</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>175</wind_dir>
+          <wind_spd>4</wind_spd>
+          <oat>1</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>192</wind_dir>
+          <wind_spd>10</wind_spd>
+          <oat>-9</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>210</wind_dir>
+          <wind_spd>21</wind_spd>
+          <oat>-19</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>198</wind_dir>
+          <wind_spd>18</wind_spd>
+          <oat>-28</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>180</wind_dir>
+          <wind_spd>10</wind_spd>
+          <oat>-43</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>212</wind_dir>
+          <wind_spd>13</wind_spd>
+          <oat>-54</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>239</wind_dir>
+          <wind_spd>13</wind_spd>
+          <oat>-53</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>258</wind_dir>
+          <wind_spd>19</wind_spd>
+          <oat>-52</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>264</wind_dir>
+          <wind_spd>16</wind_spd>
+          <oat>-55</oat>
+        </level>
+      </wind_data>
+      <fir_crossing>
+        <fir>
+          <fir_icao>LDZO</fir_icao>
+          <fir_name>ZAGREB FIR/UIR</fir_name>
+          <pos_lat_entry>42.70226</pos_lat_entry>
+          <pos_long_entry>15.74649</pos_long_entry>
+        </fir>
+      </fir_crossing>
+    </fix>
+    <fix>
+      <ident>LQSA</ident>
+      <name>SARAJEVO</name>
+      <type>apt</type>
+      <frequency/>
+      <pos_lat>43.824472</pos_lat>
+      <pos_long>18.331767</pos_long>
+      <stage>DSC</stage>
+      <via_airway>XOLTA</via_airway>
+      <is_sid_star>1</is_sid_star>
+      <distance>109</distance>
+      <track_true>058</track_true>
+      <track_mag>055</track_mag>
+      <heading_true>059</heading_true>
+      <heading_mag>055</heading_mag>
+      <altitude_feet>4200</altitude_feet>
+      <ind_airspeed>250</ind_airspeed>
+      <true_airspeed>264</true_airspeed>
+      <mach>0.4</mach>
+      <mach_thousandths>0.4</mach_thousandths>
+      <wind_component>4</wind_component>
+      <groundspeed>268</groundspeed>
+      <time_leg>1322</time_leg>
+      <time_total>6366</time_total>
+      <fuel_flow>7203</fuel_flow>
+      <fuel_leg>1840</fuel_leg>
+      <fuel_totalused>26460</fuel_totalused>
+      <fuel_min_onboard>13433</fuel_min_onboard>
+      <fuel_plan_onboard>17174</fuel_plan_onboard>
+      <oat>2</oat>
+      <oat_isa_dev>-5</oat_isa_dev>
+      <wind_dir>197</wind_dir>
+      <wind_spd>06</wind_spd>
+      <shear>1</shear>
+      <tropopause_feet>29100</tropopause_feet>
+      <ground_height>2644</ground_height>
+      <mora>9200</mora>
+      <fir>LQSB</fir>
+      <fir_units>N,F</fir_units>
+      <fir_valid_levels>1000,3000,5000,7000,9000,11000,13000,15000,17000,19000,21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,45000,49000,53000,57000,61000,65000,69000</fir_valid_levels>
+      <wind_data>
+        <level>
+          <altitude>0</altitude>
+          <wind_dir>190</wind_dir>
+          <wind_spd>1</wind_spd>
+          <oat>10</oat>
+        </level>
+        <level>
+          <altitude>5000</altitude>
+          <wind_dir>204</wind_dir>
+          <wind_spd>10</wind_spd>
+          <oat>0</oat>
+        </level>
+        <level>
+          <altitude>10000</altitude>
+          <wind_dir>225</wind_dir>
+          <wind_spd>20</wind_spd>
+          <oat>-9</oat>
+        </level>
+        <level>
+          <altitude>14000</altitude>
+          <wind_dir>224</wind_dir>
+          <wind_spd>15</wind_spd>
+          <oat>-18</oat>
+        </level>
+        <level>
+          <altitude>18000</altitude>
+          <wind_dir>213</wind_dir>
+          <wind_spd>18</wind_spd>
+          <oat>-27</oat>
+        </level>
+        <level>
+          <altitude>24000</altitude>
+          <wind_dir>191</wind_dir>
+          <wind_spd>21</wind_spd>
+          <oat>-43</oat>
+        </level>
+        <level>
+          <altitude>30000</altitude>
+          <wind_dir>189</wind_dir>
+          <wind_spd>27</wind_spd>
+          <oat>-55</oat>
+        </level>
+        <level>
+          <altitude>34000</altitude>
+          <wind_dir>205</wind_dir>
+          <wind_spd>24</wind_spd>
+          <oat>-54</oat>
+        </level>
+        <level>
+          <altitude>39000</altitude>
+          <wind_dir>213</wind_dir>
+          <wind_spd>19</wind_spd>
+          <oat>-53</oat>
+        </level>
+        <level>
+          <altitude>45000</altitude>
+          <wind_dir>236</wind_dir>
+          <wind_spd>16</wind_spd>
+          <oat>-54</oat>
+        </level>
+      </wind_data>
+      <fir_crossing>
+        <fir>
+          <fir_icao>LQSB</fir_icao>
+          <fir_name>SARAJEVO FIR/UIR</fir_name>
+          <pos_lat_entry>43.39464</pos_lat_entry>
+          <pos_long_entry>17.33591</pos_long_entry>
+        </fir>
+      </fir_crossing>
+    </fix>
+  </navlog>
+  <etops/>
+  <atc>
+    <flightplan_text>(FPL-SAB7713-IS
+-MD11/H-SDE1E2E3FGHIJ2J3J4J5M1RWXY/LB1D1
+-LEBL0730
+-N0472F380 DCT SALON UM985 OBLAD/N0473F390 UZ194 PELOS/N0473F380 DCT
+ IBROS DCT MEDAL DCT TIBER DCT ETRIN DCT XOLTA/N0477F390
+-LQSA0146 LQMO
+-PBN/A1B1C1D1L1O1S2 DOF/201210 REG/N115SB EET/LFFF0017 LIRR0036
+ LFFF0040 LIRR0047 LIBB0108 LDZO0120 LQSB0135 OPR/SAB PER/D RMK/TCAS)</flightplan_text>
+    <route>N0472F380 DCT SALON UM985 OBLAD/N0473F390 UZ194 PELOS/N0473F380 DCT IBROS DCT MEDAL DCT TIBER DCT ETRIN DCT XOLTA/N0477F390</route>
+    <route_ifps>N0472F380 DCT SALON UM985 OBLAD/N0473F390 UZ194 PELOS/N0473F380 DCT IBROS DCT MEDAL DCT TIBER DCT ETRIN DCT XOLTA/N0477F390</route_ifps>
+    <callsign>SAB7713</callsign>
+    <initial_spd>0472</initial_spd>
+    <initial_spd_unit>N</initial_spd_unit>
+    <initial_alt>380</initial_alt>
+    <initial_alt_unit>F</initial_alt_unit>
+    <section18>PBN/A1B1C1D1L1O1S2 DOF/201210 REG/N115SB EET/LFFF0017 LIRR0036 LFFF0040 LIRR0047 LIBB0108 LDZO0120 LQSB0135 OPR/SAB PER/D RMK/TCAS</section18>
+    <fir_orig>LECB</fir_orig>
+    <fir_dest>LQSB</fir_dest>
+    <fir_altn>LQSB</fir_altn>
+    <fir_etops/>
+    <fir_enroute>LFFF</fir_enroute>
+    <fir_enroute>LIRR</fir_enroute>
+    <fir_enroute>LIBB</fir_enroute>
+    <fir_enroute>LDZO</fir_enroute>
+    <fir_enroute>LQSB</fir_enroute>
+  </atc>
+  <aircraft>
+    <icaocode>MD11</icaocode>
+    <iatacode>M11</iatacode>
+    <name>MD-11</name>
+    <reg>N115SB</reg>
+    <fin>115</fin>
+    <selcal/>
+    <equip>H-SDE1E2E3FGHIJ2J3J4J5M1RWXY/LB1D1</equip>
+    <max_passengers>381</max_passengers>
+    <fuelfact>1</fuelfact>
+  </aircraft>
+  <fuel>
+    <taxi>1800</taxi>
+    <enroute_burn>26460</enroute_burn>
+    <contingency>3741</contingency>
+    <alternate_burn>7532</alternate_burn>
+    <reserve>5901</reserve>
+    <etops>0</etops>
+    <extra>0</extra>
+    <min_takeoff>43634</min_takeoff>
+    <plan_takeoff>43634</plan_takeoff>
+    <plan_ramp>45434</plan_ramp>
+    <plan_landing>17174</plan_landing>
+    <avg_fuel_flow>14962</avg_fuel_flow>
+    <max_tanks>256900</max_tanks>
+  </fuel>
+  <times>
+    <est_time_enroute>6366</est_time_enroute>
+    <sched_time_enroute>6540</sched_time_enroute>
+    <sched_out>1607585400</sched_out>
+    <sched_off>1607586480</sched_off>
+    <sched_on>1607593020</sched_on>
+    <sched_in>1607593500</sched_in>
+    <sched_block>8100</sched_block>
+    <est_out>1607585400</est_out>
+    <est_off>1607586480</est_off>
+    <est_on>1607592846</est_on>
+    <est_in>1607593326</est_in>
+    <est_block>7926</est_block>
+    <orig_timezone>1</orig_timezone>
+    <dest_timezone>1</dest_timezone>
+    <taxi_out>1080</taxi_out>
+    <taxi_in>480</taxi_in>
+    <reserve_time>1800</reserve_time>
+    <endurance>11379</endurance>
+    <contfuel_time>900</contfuel_time>
+    <etopsfuel_time>0</etopsfuel_time>
+    <extrafuel_time>0</extrafuel_time>
+  </times>
+  <weights>
+    <oew>287287</oew>
+    <pax_count>366</pax_count>
+    <pax_weight>230</pax_weight>
+    <cargo>6500</cargo>
+    <payload>90680</payload>
+    <est_zfw>377967</est_zfw>
+    <max_zfw>430000</max_zfw>
+    <est_tow>421601</est_tow>
+    <max_tow>484460</max_tow>
+    <max_tow_struct>630500</max_tow_struct>
+    <tow_limit_code>L</tow_limit_code>
+    <est_ldw>395141</est_ldw>
+    <max_ldw>458000</max_ldw>
+    <est_ramp>423401</est_ramp>
+  </weights>
+  <impacts>
+    <minus_6000ft>
+      <time_enroute>6502</time_enroute>
+      <time_difference>135</time_difference>
+      <enroute_burn>27124</enroute_burn>
+      <burn_difference>664</burn_difference>
+      <ramp_fuel>46112</ramp_fuel>
+      <initial_fl>330</initial_fl>
+      <initial_tas>464</initial_tas>
+      <initial_mach>0.80</initial_mach>
+      <cost_index>46</cost_index>
+    </minus_6000ft>
+    <minus_4000ft>
+      <time_enroute>6479</time_enroute>
+      <time_difference>113</time_difference>
+      <enroute_burn>26946</enroute_burn>
+      <burn_difference>486</burn_difference>
+      <ramp_fuel>45922</ramp_fuel>
+      <initial_fl>350</initial_fl>
+      <initial_tas>466</initial_tas>
+      <initial_mach>0.81</initial_mach>
+      <cost_index>46</cost_index>
+    </minus_4000ft>
+    <minus_2000ft>
+      <time_enroute>6418</time_enroute>
+      <time_difference>52</time_difference>
+      <enroute_burn>26572</enroute_burn>
+      <burn_difference>112</burn_difference>
+      <ramp_fuel>45531</ramp_fuel>
+      <initial_fl>370</initial_fl>
+      <initial_tas>468</initial_tas>
+      <initial_mach>0.82</initial_mach>
+      <cost_index>46</cost_index>
+    </minus_2000ft>
+    <plus_2000ft/>
+    <plus_4000ft/>
+    <plus_6000ft/>
+    <higher_ci>
+      <time_enroute>6253</time_enroute>
+      <time_difference>-113</time_difference>
+      <enroute_burn>27246</enroute_burn>
+      <burn_difference>786</burn_difference>
+      <ramp_fuel>46400</ramp_fuel>
+      <initial_fl>390</initial_fl>
+      <initial_tas>486</initial_tas>
+      <initial_mach>0.85</initial_mach>
+      <cost_index>200</cost_index>
+    </higher_ci>
+    <lower_ci>
+      <time_enroute>6487</time_enroute>
+      <time_difference>120</time_difference>
+      <enroute_burn>26279</enroute_burn>
+      <burn_difference>-181</burn_difference>
+      <ramp_fuel>45158</ramp_fuel>
+      <initial_fl>390</initial_fl>
+      <initial_tas>459</initial_tas>
+      <initial_mach>0.80</initial_mach>
+      <cost_index>0</cost_index>
+    </lower_ci>
+    <zfw_plus_1000>
+      <time_enroute>6426</time_enroute>
+      <time_difference>59</time_difference>
+      <enroute_burn>26538</enroute_burn>
+      <burn_difference>78</burn_difference>
+      <ramp_fuel>45488</ramp_fuel>
+      <initial_fl>390</initial_fl>
+      <initial_tas>472</initial_tas>
+      <initial_mach>0.82</initial_mach>
+      <cost_index>46</cost_index>
+    </zfw_plus_1000>
+    <zfw_minus_1000>
+      <time_enroute>6374</time_enroute>
+      <time_difference>7</time_difference>
+      <enroute_burn>26418</enroute_burn>
+      <burn_difference>-42</burn_difference>
+      <ramp_fuel>45381</ramp_fuel>
+      <initial_fl>390</initial_fl>
+      <initial_tas>472</initial_tas>
+      <initial_mach>0.82</initial_mach>
+      <cost_index>46</cost_index>
+    </zfw_minus_1000>
+  </impacts>
+  <crew>
+    <pilot_id>322111</pilot_id>
+    <cpt>ADRIAN SERRANO</cpt>
+    <fo>JOSH REILLY</fo>
+    <dx>WALTER KNAPP</dx>
+    <pu>SHAWNA JOYCE</pu>
+    <fa>DWAYNE KELLER</fa>
+    <fa>EARNEST CERVANTES</fa>
+    <fa>OMAR BROWNING</fa>
+    <fa>MARTHA MELENDEZ</fa>
+    <fa>TREVOR BRYANT</fa>
+    <fa>DIANNE COPELAND</fa>
+    <fa>SILVIA STOKES</fa>
+    <fa>IVAN WILKINS</fa>
+    <fa>RUBY PAYNE</fa>
+    <fa>SHERMAN RODRIQUEZ</fa>
+    <fa>MARGUERITE BENDER</fa>
+    <fa>PATRICIA SOSA</fa>
+  </crew>
+  <notams/>
+  <weather>
+    <orig_metar>LEBL 102130Z 00000KT 9999 FEW025 08/05 Q1008 NOSIG</orig_metar>
+    <orig_taf>LEBL 101700Z 1018/1118 34010KT 9999 FEW040 TX16/1112Z TN08/1106Z
+TEMPO 1018/1020 04007KT
+PROB40 TEMPO 1104/1109 4000 RA BKN010 BKN020
+BECMG 1111/1113 24010KT</orig_taf>
+    <dest_metar>LQSA 102130Z VRB02KT 4500 BR FEW055 01/01 Q1006 NOSIG</dest_metar>
+    <dest_taf>COR LQSA 101700Z 1018/1118 VRB02KT 7000 SCT060 TX07/1113Z TNM00/1103Z
+BECMG 1021/1024 2000 BR
+PROB40 1103/1108 0500 FZFG BKN002
+BECMG 1108/1110 6000 NSW
+PROB30 TEMPO 1108/1112 RA BKN014 BKN030</dest_taf>
+    <altn_metar>LQMO 102100Z 03006KT 9999 -RA FEW040 SCT060 08/07 Q1006</altn_metar>
+    <altn_taf>LQMO 101700Z 1018/1118 04005KT 9999 SCT035 BKN065 TX11/1113Z TN06/1105Z
+TEMPO 1018/1112 RA</altn_taf>
+    <toaltn_metar/>
+    <toaltn_taf/>
+    <eualtn_metar/>
+    <eualtn_taf/>
+    <etops_metar/>
+    <etops_taf/>
+  </weather>
+  <sigmets>
+    <sigmet>
+      <type>WS</type>
+      <loc>FR31</loc>
+      <address>LFPW</address>
+      <title>WSFR31 LFPW 101719</title>
+      <fir>LFFF</fir>
+      <fir_name>FRANCE FIR/UIR</fir_name>
+      <id>1</id>
+      <issued>1607620740</issued>
+      <start>1607623200</start>
+      <end>1607637600</end>
+      <text>LFFF SIGMET 1 VALID 101800/102200 LFPW- LFFF PARIS FIR/UIR SEV TURB FCST WI N4630 E00300 - N4715 E00200 - N4715 W00015 - N4945 W00015 - N5000 E00030 - N4830 E00330 - N4630 E00400 - N4630 E00300 FL280/350 MOV E 35KT NC=</text>
+    </sigmet>
+    <sigmet>
+      <type>WS</type>
+      <loc>FR31</loc>
+      <address>LFPW</address>
+      <title>WSFR31 LFPW 102150</title>
+      <fir>LFFF</fir>
+      <fir_name>FRANCE FIR/UIR</fir_name>
+      <id>2</id>
+      <issued>1607637000</issued>
+      <start>1607637600</start>
+      <end>1607652000</end>
+      <text>LFFF SIGMET 2 VALID 102200/110200 LFPW- LFFF PARIS FIR/UIR SEV TURB FCST WI N4645 E00245 - N4715 E00200 - N4715 W00015 - N5000 W00015 - N5000 W00000 - N4730 E00230 - N4645 E00245 FL380/440 STNR WKN=</text>
+    </sigmet>
+    <sigmet>
+      <type>WS</type>
+      <loc>FR31</loc>
+      <address>LFPW</address>
+      <title>WSFR31 LFPW 102150</title>
+      <fir>LFFF</fir>
+      <fir_name>FRANCE FIR/UIR</fir_name>
+      <id>3</id>
+      <issued>1607637000</issued>
+      <start>1607637600</start>
+      <end>1607652000</end>
+      <text>LFFF SIGMET 3 VALID 102200/110200 LFPW- LFFF PARIS FIR/UIR SEV TURB FCST WI N4630 E00300 - N4645 E00230 - N4730 E00230 - N5000 W00000 - N5045 E00115 - N4830 E00430 - N4745 E00445 - N4730 E00415 - N4630 E00445 - N4630 E00300 FL290/430 MOV E 40KT WKN=</text>
+    </sigmet>
+    <sigmet>
+      <type>WS</type>
+      <loc>IY32</loc>
+      <address>LIIB</address>
+      <title>WSIY32 LIIB 102020</title>
+      <fir>LIRR</fir>
+      <fir_name>ROME FIR/UIR</fir_name>
+      <id>3</id>
+      <issued>1607631600</issued>
+      <start>1607635800</start>
+      <end>1607643000</end>
+      <text>LIRR SIGMET 3 VALID 102130/102330 LIIB- LIRR ROMA FIR EMBD TS FCST WI N4054 E00959 - N4103 E01301 - N4013 E01410 - N3631 E01605 - N3629 E01338 - N3830 E01007 - N4054 E00959 TOP FL250 MOV E NC=</text>
+    </sigmet>
+    <sigmet>
+      <type>WS</type>
+      <loc>IY32</loc>
+      <address>LIIB</address>
+      <title>WSIY32 LIIB 102057</title>
+      <fir>LIRR</fir>
+      <fir_name>ROME FIR/UIR</fir_name>
+      <id>4</id>
+      <issued>1607633820</issued>
+      <start>1607643000</start>
+      <end>1607657400</end>
+      <text>LIRR SIGMET 4 VALID 102330/110330 LIIB- LIRR ROMA FIR EMBD TS FCST WI N4049 E01107 - N4137 E01205 - N4107 E01301 - N4053 E01518 - N3914 E01614 - N3857 E01630 - N3851 E01709 - N3851 E01806 - N3628 E01647 - N3628 E01337 - N3632 E01155 - N3738 E01155 - N3839 E01028 - N4049 E01107 TOP FL250 MOV E NC=</text>
+    </sigmet>
+  </sigmets>
+  <text>
+    <nat_tracks/>
+    <plan_html>&lt;div style="line-height:14px;font-size:13px"&gt;&lt;pre&gt;&lt;!--BKMK///OFP///0--&gt;&lt;!--BKMK///Summary and Fuel///1--&gt;&lt;b&gt;[ OFP ]
+--------------------------------------------------------------------&lt;/b&gt;
+SAB7713   10DEC2020    LEBL-LQSA   MD11 N115SB  RELEASE 2158 10DEC20
+OFP 2               EL PRAT-SARAJEVO
+                         WX PROG 1006 1009 1012   OBS 1006 1006 1012
+	
+  ATC C/S   SAB7713      LEBL/BCN   LQSA/SJJ      CRZ SYS      CI 46
+10DEC2020   N115SB       0730/0748  0934/0942     GND DIST       797
+MD-11 / CF6-80C2D1F                 STA  0945     AIR DIST       750
+                         CTOT:....                G/C DIST       733
+                                                  AVG WIND   306/041
+MAXIMUM    TOW 630500  LAW 458000  ZFW 430000     AVG W/C       P027
+ESTIMATED  TOW 421601  LAW 395141  ZFW 377967     AVG ISA       P002
+                                                  AVG FF LB/HR 14962
+                                                  FUEL BIAS    P00.0
+ALTN LQMO                                         TKOF ALTN  .......
+FL STEPS LEBL/0380/OBLAD/0390/PELOS/0380/XOLTA/0390
+--------------------------------------------------------------------
+DISP RMKS   NIL
+
+--------------------------------------------------------------------
+         PLANNED FUEL
+---------------------------------
+FUEL           ARPT   FUEL   TIME
+---------------------------------
+TRIP            SJJ  26460   0146
+CONT 15 MIN           3741   0015
+ALTN            OMO   7532   0036
+FINRES                5901   0030
+---------------------------------
+MINIMUM T/OFF FUEL   43634   0307
+---------------------------------
+EXTRA                    0   0000
+---------------------------------
+T/OFF FUEL           43634   0307
+TAXI            BCN   1800   0018
+---------------------------------
+BLOCK FUEL      BCN  45434
+PIC EXTRA            .....
+TOTAL FUEL           .....
+REASON FOR PIC EXTRA ............
+--------------------------------------------------------------------
+NO TANKERING RECOMMENDED (P)
+--------------------------------------------------------------------
+I HEREWITH CONFIRM THAT I HAVE PERFORMED A THOROUGH SELF BRIEFING
+ABOUT THE DESTINATION AND ALTERNATE AIRPORTS OF THIS FLIGHT 
+INCLUDING THE APPLICABLE INSTRUMENT APPROACH PROCEDURES, AIRPORT 
+FACILITIES, NOTAMS AND ALL OTHER RELEVANT PARTICULAR INFORMATION.
+
+DISPATCHER: WALTER KNAPP                PIC NAME: SERRANO, ADRIAN
+
+TEL: +1 800 555 0199               PIC SIGNATURE: ...............&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;&lt;!--BKMK///Routing and Impacts///1--&gt;
+ALTERNATE ROUTE TO:                                    FINRES   5901
+APT      TRK DST              VIA                 FL  WC  TIME  FUEL
+--------------------------------------------------------------------
+LQMO/34  213 108  DCT VRANA DCT                  140 M012 0036  7532
+--------------------------------------------------------------------
+
+MEL/CDL ITEMS DESCRIPTION
+------------- -----------
+
+--------------------------------------------------------------------
+
+ROUTING:
+
+ROUTE ID: DEFRTE
+LEBL/25L DCT SALON UM985 OBLAD UZ194 PELOS DCT IBROS DCT MEDAL DCT
+TIBER DCT ETRIN DCT XOLTA LQSA/12
+
+--------------------------------------------------------------------
+DEPARTURE ATC CLEARANCE:
+.
+.
+.
+--------------------------------------------------------------------
+                         OPERATIONAL IMPACTS
+                         -------------------
+WEIGHT CHANGE UP 1.0          TRIP  P 0078 LBS   TIME P 0000
+WEIGHT CHANGE DN 1.0          TRIP  M 0042 LBS   TIME P 0000
+FL CHANGE     UP FL1                 NOT AVAILABLE
+FL CHANGE     DN FL1          TRIP  P 0112 LBS   TIME P 0000
+FL CHANGE     DN FL2          TRIP  P 0486 LBS   TIME P 0001
+SPD CHANGE    CI 0            TRIP  M 0181 LBS   TIME P 0002
+SPD CHANGE    CI 200          TRIP  P 0786 LBS   TIME M 0001
+--------------------------------------------------------------------&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;&lt;!--BKMK///Times and Weights///1--&gt;--------------------------------------------------------------------
+ATIS:
+.
+.
+--------- --------- --------- --------- --------- --------- --------
+RVSM: ALT SYS  LEFT:             STBY:             RIGHT:
+
+--------- --------- --------- --------- --------- --------- --------
+--------------------------------------------------------------------
+                                TIMES
+                                -----
+				    
+               ESTIMATED        SKED              ACTUAL
+
+OUT            0730Z/0830L      0730Z/0830L       ......Z
+
+OFF            0748Z/0848L      0748Z/0848L       ......Z
+
+ON             0934Z/1034L      0937Z/1037L       ......Z
+
+IN             0942Z/1042L      0945Z/1045L       ......Z
+
+BLOCK TIME     0212             0215              ......
+
+--------------------------------------------------------------------
+                               WEIGHTS
+                               -------
+
+                EST      MAX     ACTUAL
+
+PAX             366              ......
+
+CARGO           6.5              ......
+
+PAYLOAD        90.7              ......
+
+ZFW           378.0    430.0     ......
+
+FUEL           45.4    108.3     ......  POSS EXTRA 62.9
+
+TOW           421.6    484.5  LDG......
+
+STAB TRIM                        ......
+
+LAW           395.1    458.0     ......
+
+--------------------------------------------------------------------
+                       TERRAIN CLEARANCE CHECK
+                       -----------------------
+DD CHECK - TERRAIN CLEARANCE CHECK DISABLED
+
+DP CHECK - TERRAIN CLEARANCE CHECK DISABLED
+--------------------------------------------------------------------&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;&lt;!--BKMK///Flight Log///1--&gt;                             FLIGHT LOG                             
+                             ----------                             
+
+MOST CRITICAL MORA 10800 FEET AT TIBER///MXSHR 03 AT IBROS
+--------------------------------------------------------------------
+AWY                           FL   IMT   MN    WIND  OAT  EFOB  PBRN
+POSITION    LAT      EET ETO MORA  ITT  TAS    COMP  TDV
+IDENT       LONG    TTLT ATO DIS  RDIS   GS     SHR  TRP  AFOB  ABRN
+FREQ
+--------------------------------------------------------------------
+                                   076                    43.6   1.8
+EL PRAT     N4117.8      ...  26   076         P047     
+LEBL       E00204.7 0000 ...       797  520               ....  ....
+
+DCT                          327   076  .82 303/073  M54  38.4   7.1
+SALON       N4129.7 0010 ...  20   077         P047  M04
+SALON      E00311.2 0010 ...  74   723  520          346  ....  ....
+
+UM985                        357   076  .82 304/058  M55  36.9   8.5
+AGENA       N4132.7 0001 ...  20   077         P038  P01
+AGENA      E00329.3 0011 ...  14   709  510          334  ....  ....
+
+UM985                        372   076  .82 307/052  M56  35.2  10.2
+MAROT       N4136.3 0001 ...  20   077         P032  P01
+MAROT      E00351.6 0012 ...  17   692  503          346  ....  ....
+
+UM985                        380   077  .82 309/052  M56  35.1  10.3
+T O C       N4136.6 0000 ...  20   077  471    P030  P01
+           E00352.9 0012 ...   1   691  501       2  346  ....  ....
+
+UM985                        380   072  .82 313/048  M56  34.1  11.4
+LUMAS       N4144.0 0005 ...  20   073  472    P025  P01
+LUMAS      E00440.0 0017 ...  36   655  497       2  332  ....  ....
+
+FRANCE FIR/UIR                                                      
+-LFFF       N4144.0 0000 ...
+           E00440.0 0017 ...   0   655
+
+UM985                        380   115  .82 313/048  M56  33.6  11.8
+OBLAD       N4148.6 0002 ...  20   117  472    P022  P01
+OBLAD      E00500.8 0019 ...  16   639  494       2  332  ....  ....
+
+UZ194                        390   113  .82 315/048  M56  33.0  12.4
+OLNUL       N4140.1 0002 ...  20   115  473    P045  P01
+OLNUL      E00523.1 0021 ...  19   620  518       2  332  ....  ....
+
+UZ194                        390   091  .82 313/049  M58  31.4  14.0
+NIVDA       N4114.6 0007 ...  20   093  471    P046  M01
+NIVDA      E00634.1 0028 ...  59   561  517       1  339  ....  ....
+
+UZ194                        390   092  .82 314/054  M57  29.9  15.5
+UTORU       N4110.8 0007 ...  20   094  472    P039  P00
+UTORU      E00749.9 0035 ...  57   504  511       2  343  ....  ....
+
+UZ194                        390   063  .82 314/054  M57  29.5  15.9
+PELOS       N4109.7 0002 ...  51   065  472    P040  P00
+PELOS      E00809.7 0037 ...  15   489  512       2  343  ....  ....
+
+&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;AWY                           FL   IMT   MN    WIND  OAT  EFOB  PBRN
+POSITION    LAT      EET ETO MORA  ITT  TAS    COMP  TDV
+IDENT       LONG    TTLT ATO DIS  RDIS   GS     SHR  TRP  AFOB  ABRN
+FREQ
+--------------------------------------------------------------------
+ROME FIR/UIR                                                        
+-LIRR       N4109.6 0000 ...
+           E00809.6 0037 ...   0   489
+
+FRANCE FIR/UIR                                                      
+-LFFF       N4120.1 0003 ...
+           E00841.0 0040 ...  23   466
+
+ROME FIR/UIR                                                        
+-LIRR       N4141.6 0007 ...
+           E00945.0 0047 ...  53   413
+
+DCT                          380   072  .82 321/048  M55  26.9  18.5
+IBROS       N4147.7 0002 ...  20   074  473    P009  P02
+IBROS      E01002.9 0049 ...  17   396  482       3  329  ....  ....
+
+DCT                          380   074  .82 316/040  M54  25.2  20.2
+MEDAL       N4203.2 0007 ...  48   077  474    P017  P03
+MEDAL      E01122.6 0056 ...  61   335  491       3  317  ....  ....
+
+DCT                          380   073  .82 298/029  M52  23.7  21.7
+TIBER       N4214.9 0007 ... 108   076  476    P022  P05
+TIBER      E01235.9 0103 ...  56   279  498       1  293  ....  ....
+
+BRINDISI FIR/UIR                                                    
+-LIBB       N4224.3 0005 ...
+           E01332.2 0108 ...  38   241
+
+DCT                          380   079  .82 273/018  M52  21.1  24.4
+ETRIN       N4236.3 0007 ...  20   082  476    P017  P05
+ETRIN      E01443.2 0115 ...  58   183  493       1  284  ....  ....
+
+DCT                          380   055  .82 255/019  M52  19.8  25.6
+XOLTA       N4242.2 0005 ...  20   058  475    P019  P05
+XOLTA      E01544.9 0120 ...  46   137  494       1  289  ....  ....
+
+ZAGREB FIR/UIR                                                      
+-LDZO       N4242.1 0000 ...
+           E01544.8 0120 ...   0   137
+
+DCT                          390   055  .82 258/019  M52  19.0  26.4
+T O D       N4256.8 0004 ...  92   058  477    P018  P05
+           E01617.4 0124 ...  28   109  495       1  289  ....  ....
+
+SARAJEVO FIR/UIR                                                    
+-LQSB       N4323.7 0011 ...
+           E01720.2 0135 ...  54    55
+
+DCT                                                       17.2  28.3
+SARAJEVO    N4349.5 0011 ...                            
+LQSA       E01819.9 0146 ...  55                          ....  ....
+
+
+
+&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;&lt;!--BKMK///Wind Information///1--&gt;--------------------------------------------------------------------
+                          WIND INFORMATION                          
+                          ----------------                          
+
+CLIMB            T O C            LUMAS            OBLAD
+350 306/071 -56  420 316/048 -57  420 318/047 -57  420 318/047 -57
+310 302/071 -50  400 313/050 -57  400 316/047 -56  400 316/047 -56
+200 300/044 -25  380 309/052 -56  380 313/048 -56  380 313/048 -56
+150 301/041 -14  360 304/052 -56  360 308/050 -56  360 308/050 -56
+100 295/035 -05  340 300/053 -55  340 303/052 -57  340 303/052 -57
+
+OLNUL            NIVDA            UTORU            PELOS
+430 319/047 -57  430 318/045 -57  430 316/042 -57  430 316/042 -57
+410 317/047 -56  410 315/047 -57  410 315/048 -57  410 315/048 -57
+390 315/048 -56  390 313/049 -58  390 314/054 -57  390 314/053 -57
+370 310/049 -56  370 314/052 -57  370 316/055 -57  370 316/055 -57
+350 306/050 -56  350 316/055 -57  350 318/056 -57  350 318/055 -57
+
+IBROS            MEDAL            TIBER            ETRIN
+420 314/037 -56  420 308/033 -55  420 294/026 -54  420 274/018 -54
+400 318/042 -55  400 312/036 -54  400 296/027 -53  400 274/019 -53
+380 321/048 -55  380 316/040 -54  380 298/029 -52  380 273/018 -52
+360 322/054 -55  360 318/047 -54  360 302/031 -52  360 270/014 -52
+340 323/060 -55  340 320/054 -54  340 306/034 -52  340 263/011 -53
+
+XOLTA            T O D            DESCENT
+420 261/017 -53  430 263/017 -54  350 244/015 -53
+400 259/019 -53  410 260/018 -53  310 219/013 -54
+380 256/019 -52  390 258/019 -52  200 194/015 -33
+360 248/016 -53  370 252/017 -53  150 207/020 -21
+340 238/013 -53  350 244/015 -53  100 192/010 -09
+
+--------------------------------------------------------------------&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;&lt;!--BKMK///ATC Flight Plan///0--&gt;&lt;b&gt;[ ATC Flight Plan ]
+--------------------------------------------------------------------&lt;/b&gt;
+                          ICAO FLIGHT PLAN                           
+                          ----------------                           
+
+FF LECBZQZX LFFFZQZX LIRRZQZX LIBBZQZX LDZOZQZX LQSBZQZX
+102158 CYULSBFP
+(FPL-SAB7713-IS
+-MD11/H-SDE1E2E3FGHIJ2J3J4J5M1RWXY/LB1D1
+-LEBL0730
+-N0472F380 DCT SALON UM985 OBLAD/N0473F390 UZ194 PELOS/N0473F380 DCT
+ IBROS DCT MEDAL DCT TIBER DCT ETRIN DCT XOLTA/N0477F390
+-LQSA0136 LQMO
+-PBN/A1B1C1D1L1O1S2 DOF/201210 REG/N115SB EET/LFFF0017 LIRR0036
+ LFFF0040 LIRR0047 LIBB0108 LDZO0120 LQSB0135 OPR/SAB PER/D RMK/TCAS)&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;&lt;!--BKMK///Additional Info///0--&gt;&lt;b&gt;[ Additional Info ]
+--------------------------------------------------------------------&lt;/b&gt;
+D I S P A T C H  B R I E F I N G  I N F O    SAB7713   LEBL/LQSA
+
+
+&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;&lt;!--BKMK///Airport WX List///0--&gt;&lt;b&gt;[ Airport WX List ]
+--------------------------------------------------------------------&lt;/b&gt;
+LEBL --&gt; LQSA   SAB  7713 / 10DEC2020
+LIDO/WEATHER SERVICE       DATE : 10Dec2020   TIME : 21:58 UTC
+
+AIRMETs:
+  No Wx data available
+
+SIGMETs:
+LFFF  FRANCE FIR/UIR
+  WS  SIGMET 1 VALID 101800/102200 LFPW- LFFF PARIS FIR/UIR SEV
+             TURB FCST WI N4630 E00300 - N4715 E00200 - N4715
+             W00015 - N4945 W00015 - N5000 E00030 - N4830 E00330 -
+             N4630 E00400 - N4630 E00300 FL280/350 MOV E 35KT NC=
+  WS  SIGMET 2 VALID 102200/110200 LFPW- LFFF PARIS FIR/UIR SEV
+             TURB FCST WI N4645 E00245 - N4715 E00200 - N4715
+             W00015 - N5000 W00015 - N5000 W00000 - N4730 E00230 -
+             N4645 E00245 FL380/440 STNR WKN=
+  WS  SIGMET 3 VALID 102200/110200 LFPW- LFFF PARIS FIR/UIR SEV
+             TURB FCST WI N4630 E00300 - N4645 E00230 - N4730
+             E00230 - N5000 W00000 - N5045 E00115 - N4830 E00430 -
+             N4745 E00445 - N4730 E00415 - N4630 E00445 - N4630
+             E00300 FL290/430 MOV E 40KT WKN=
+LIRR  ROME FIR/UIR
+  WS  SIGMET 3 VALID 102130/102330 LIIB- LIRR ROMA FIR 
+             EMBD TS FCST WI N4054 E00959 - N4103 E01301 - N4013
+             E01410 - N3631 E01605 - N3629 E01338 - N3830 E01007 -
+             N4054 E00959 TOP FL250 MOV E NC=
+  WS  SIGMET 4 VALID 102330/110330 LIIB- LIRR ROMA FIR 
+             EMBD TS FCST WI N4049 E01107 - N4137 E01205 - N4107
+             E01301 - N4053 E01518 - N3914 E01614 - N3857 E01630 -
+             N3851 E01709 - N3851 E01806 - N3628 E01647 - N3628
+             E01337 - N3632 E01155 - N3738 E01155 - N3839 E01028 -
+             N4049 E01107 TOP FL250 MOV E NC=
+
+Tropical Cyclone SIGMETs:
+  No Wx data available
+
+Volcanic Ash SIGMETs:
+  No Wx data available
+
+Departure:
+LEBL/BCN  EL PRAT
+  SA  102130  00000KT 9999 FEW025 08/05 Q1008 NOSIG
+  FT  101700  1018/1118 34010KT 9999 FEW040 TX16/1112Z TN08/1106Z
+              TEMPO 1018/1020 04007KT
+              PROB40 TEMPO 1104/1109 4000 RA BKN010 BKN020
+              BECMG 1111/1113 24010KT
+
+Destination:
+LQSA/SJJ  SARAJEVO
+  SA  102130  VRB02KT 4500 BR FEW055 01/01 Q1006 NOSIG
+  FT          101700Z 1018/1118 VRB02KT 7000 SCT060 TX07/1113Z
+              TNM00/1103Z
+              BECMG 1021/1024 2000 BR
+              PROB40 1103/1108 0500 FZFG BKN002
+              BECMG 1108/1110 6000 NSW
+              PROB30 TEMPO 1108/1112 RA BKN014 BKN030&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;Destination Alternates:
+LQMO/OMO  MOSTAR
+  SA  102100  03006KT 9999 -RA FEW040 SCT060 08/07 Q1006
+  FT  101700  1018/1118 04005KT 9999 SCT035 BKN065 TX11/1113Z
+              TN06/1105Z
+              TEMPO 1018/1112 RA
+
+
+  AIRPORTLIST ENDED&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;&lt;!--BKMK///Company NOTAM///0--&gt;&lt;b&gt;[ Company NOTAM ]
+--------------------------------------------------------------------&lt;/b&gt;
+&lt;b&gt;==========
+CREW ALERT
+==========&lt;/b&gt;
+
+&lt;b&gt;SB007/14   &lt;/b&gt;
+  SUBJECT: AUTO COST INDEXES
+  WHEN PLANNING A COST INDEX, 2 OPTIONS ARE AVAILABLE. PILOTS MAY
+  EITHER SELECT A SPECIFIC COST INDEX NUMBER FROM THE LIST, OR THEY
+  MAY SELECT "AUTO". WHEN PLANNING AN "AUTO" COST INDEX, THE SYSTEM
+  WILL REFERENCE THE SCHEDULED "TIME ENROUTE" OPTION AND ATTEMPT TO
+  CHOOSE A COST INDEX WHICH CLOSELY MATCHES THIS VALUE. NOTE THAT
+  THE "TIME ENROUTE" OPTION IS MEANT AS A GATE TO GATE TIME (AS
+  INDICATED ON AN AIRLINE'S FLIGHT SCHEDULE, FOR EXAMPLE). IF A
+  "TIME ENROUTE" OF 2:30 IS SELECTED, THE SYSTEM WILL SUBTRACT THE
+  TAXI TIMES FROM THIS VALUE TO DETERMINE THE SCHEDULED AIR TIME. IT
+  WILL THEN DETERMINE AND USE THE COST INDEX WHICH MATCHES THIS AIR
+  TIME.
+
+&lt;b&gt;SB003/13   &lt;/b&gt;
+  SUBJECT: FLIGHT RELEASE UNITS
+  ALL FLIGHT CREW: PLEASE PAY SPECIAL ATTENTION TO THE UNITS
+  SELECTION WHEN GENERATING A FLIGHT PLAN. FAILURE TO IDENTIFY THE
+  CORRECT UNITS WHEN REFUELING PRIOR TO FLIGHT CAN RESULT IN
+  DEPARTING WITH INSUFFICIENT FUEL AND/OR AN ERRONEOUS PAYLOAD.
+
+&lt;b&gt;=============
+CREW BULLETIN
+=============&lt;/b&gt;
+
+NIL
+
+
+==================== END OF LIDO-NOTAM-BULLETIN ====================&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;Route
+&lt;a class="ofpmaplink" href="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_ROUTE.gif" target="_blank"&gt;&lt;img src="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_ROUTE.gif" alt="Image no longer available, please regenerate the flightplan." width="600px"&gt;&lt;/a&gt;&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;SigWx 1 of 2
+&lt;a class="ofpmaplink" href="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_SIGWX06.gif" target="_blank"&gt;&lt;img src="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_SIGWX06.gif" alt="Image no longer available, please regenerate the flightplan." width="600px"&gt;&lt;/a&gt;&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;SigWx 2 of 2
+&lt;a class="ofpmaplink" href="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_SIGWX06_B.gif" target="_blank"&gt;&lt;img src="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_SIGWX06_B.gif" alt="Image no longer available, please regenerate the flightplan." width="600px"&gt;&lt;/a&gt;&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;UAD 1 of 3
+&lt;a class="ofpmaplink" href="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_WINDS30000.gif" target="_blank"&gt;&lt;img src="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_WINDS30000.gif" alt="Image no longer available, please regenerate the flightplan." width="600px"&gt;&lt;/a&gt;&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;UAD 2 of 3
+&lt;a class="ofpmaplink" href="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_WINDS34000.gif" target="_blank"&gt;&lt;img src="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_WINDS34000.gif" alt="Image no longer available, please regenerate the flightplan." width="600px"&gt;&lt;/a&gt;&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;UAD 3 of 3
+&lt;a class="ofpmaplink" href="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_WINDS39000.gif" target="_blank"&gt;&lt;img src="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_WINDS39000.gif" alt="Image no longer available, please regenerate the flightplan." width="600px"&gt;&lt;/a&gt;&lt;h2 style="page-break-after: always;"&gt; &lt;/h2&gt;Vertical profile
+&lt;a class="ofpmaplink" href="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_PROFILE.gif" target="_blank"&gt;&lt;img src="http://www.simbrief.com/ofp/uads/LEBLLQSA_1607637506_PROFILE.gif" alt="Image no longer available, please regenerate the flightplan." width="600px"&gt;&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;</plan_html>
+  </text>
+  <tracks/>
+  <database_updates>
+    <metar_taf>1607637331</metar_taf>
+    <winds>1607623200</winds>
+    <sigwx>1607635981</sigwx>
+    <sigmet>1607637423</sigmet>
+    <notams>1607637062</notams>
+    <tracks>1607633520</tracks>
+  </database_updates>
+  <files>
+    <directory>http://www.simbrief.com/ofp/flightplans/</directory>
+    <pdf>
+      <name>PDF Document</name>
+      <link>LEBLLQSA_PDF_1607637506.pdf</link>
+    </pdf>
+    <file>
+      <name>Aerosoft Airbus</name>
+      <link>LEBLLQSA_ABX_1607637506.flp</link>
+    </file>
+    <file>
+      <name>Aerosoft Airbus EFB</name>
+      <link>LEBLLQSA_PDF_1607637506.pdf--A3E</link>
+    </file>
+    <file>
+      <name>Aerosoft CRJ</name>
+      <link>LEBLLQSA_CRX_1607637506.flp</link>
+    </file>
+    <file>
+      <name>Aerowinx PSX 747</name>
+      <link>LEBLLQSA_PSX_1607637506.route</link>
+    </file>
+    <file>
+      <name>AivlaSoft EFB</name>
+      <link>LEBLLQSA_EFB_1607637506.efbr</link>
+    </file>
+    <file>
+      <name>AivlaSoft EFB v2</name>
+      <link>LEBLLQSA_EF2_1607637506.efbr</link>
+    </file>
+    <file>
+      <name>Black Box Airbus</name>
+      <link>LEBLLQSA_BBS_1607637506.pln</link>
+    </file>
+    <file>
+      <name>Captain Sim (PLN)</name>
+      <link>LEBLLQSA_CSF_1607637506.pln</link>
+    </file>
+    <file>
+      <name>FeelThere</name>
+      <link>LEBLLQSA_FTR_1607637506.fpl</link>
+    </file>
+    <file>
+      <name>Flight1 GTN</name>
+      <link>LEBLLQSA_GTN_1607637506.gfp</link>
+    </file>
+    <file>
+      <name>FlightFactor 757 V2</name>
+      <link>LEBLLQSA_VMX_1607637506.flp--VM5</link>
+    </file>
+    <file>
+      <name>FlightFactor 767-777</name>
+      <link>LEBLLQSA_VMX_1607637506.flp</link>
+    </file>
+    <file>
+      <name>FlightFactor A320</name>
+      <link>LEBLLQSA_FFA_1607637506.in</link>
+    </file>
+    <file>
+      <name>FS Commander</name>
+      <link>LEBLLQSA_FSC_1607637506.pln</link>
+    </file>
+    <file>
+      <name>FS2004</name>
+      <link>LEBLLQSA_FS9_1607637506.pln</link>
+    </file>
+    <file>
+      <name>FS2020</name>
+      <link>LEBLLQSA_MFS_1607637506.pln</link>
+    </file>
+    <file>
+      <name>FSLabs A320</name>
+      <link>LEBLLQSA_FSL_1607637506.txt</link>
+    </file>
+    <file>
+      <name>FSX/P3D</name>
+      <link>LEBLLQSA_FSX_1607637506.pln</link>
+    </file>
+    <file>
+      <name>FSX/P3D (No SID/STAR)</name>
+      <link>LEBLLQSA_FSN_1607637506.pln</link>
+    </file>
+    <file>
+      <name>Google Earth KML</name>
+      <link>LEBLLQSA_KML_1607637506.kml</link>
+    </file>
+    <file>
+      <name>iFly 737NG</name>
+      <link>LEBLLQSA_IFY_1607637506.FLTPLAN</link>
+    </file>
+    <file>
+      <name>iFly 747 V2</name>
+      <link>LEBLLQSA_I74_1607637506.route</link>
+    </file>
+    <file>
+      <name>IVAO/IVAP</name>
+      <link>LEBLLQSA_IVO_1607637506.fpl</link>
+    </file>
+    <file>
+      <name>IVAO/IVAP (Default.fpl)</name>
+      <link>LEBLLQSA_XVD_1607637506.fpl</link>
+    </file>
+    <file>
+      <name>IVAO/XIVAP</name>
+      <link>LEBLLQSA_XVP_1607637506.fpl</link>
+    </file>
+    <file>
+      <name>IXEG 737 Classic</name>
+      <link>LEBLLQSA_IXG_1607637506.fpl</link>
+    </file>
+    <file>
+      <name>JARDesign Airbus</name>
+      <link>LEBLLQSA_JAR_1607637506.txt</link>
+    </file>
+    <file>
+      <name>Leonardo MD80</name>
+      <link>LEBLLQSA_MDR_1607637506.mdr</link>
+    </file>
+    <file>
+      <name>Leonardo MD80 (ACARS)</name>
+      <link>LEBLLQSA_MDA_1607637506.txt</link>
+    </file>
+    <file>
+      <name>Level-D 767</name>
+      <link>LEBLLQSA_LVD_1607637506.rte</link>
+    </file>
+    <file>
+      <name>Majestic Q400</name>
+      <link>LEBLLQSA_MJC_1607637506.fpr</link>
+    </file>
+    <file>
+      <name>phpVMS ACARS</name>
+      <link>LEBLLQSA_VMS_1607637506.xml</link>
+    </file>
+    <file>
+      <name>PMDG Flightplan</name>
+      <link>LEBLLQSA_PMR_1607637506.rte</link>
+    </file>
+    <file>
+      <name>PMDG Wind Uplink</name>
+      <link>LEBLLQSA_PMW_1607637506.wx</link>
+    </file>
+    <file>
+      <name>Project Magenta</name>
+      <link>LEBLLQSA_MGA_1607637506.sbp</link>
+    </file>
+    <file>
+      <name>ProSim 737</name>
+      <link>LEBLLQSA_PSM_1607637506.xml</link>
+    </file>
+    <file>
+      <name>QualityWings</name>
+      <link>LEBLLQSA_QTY_1607637506.RTE</link>
+    </file>
+    <file>
+      <name>Sim-Avionics</name>
+      <link>xml/LEBLLQSA_XML_1607637506.xml--sbr</link>
+    </file>
+    <file>
+      <name>Squawkbox</name>
+      <link>LEBLLQSA_SFP_1607637506.sfp</link>
+    </file>
+    <file>
+      <name>TFDi Design 717</name>
+      <link>LEBLLQSA_TFD_1607637506.xml</link>
+    </file>
+    <file>
+      <name>UFMC - Universal FMC</name>
+      <link>LEBLLQSA_UFC_1607637506.ufmc</link>
+    </file>
+    <file>
+      <name>vasFMC</name>
+      <link>LEBLLQSA_VAS_1607637506.fmc</link>
+    </file>
+    <file>
+      <name>vPilot</name>
+      <link>LEBLLQSA_VFP_1607637506.vfp</link>
+    </file>
+    <file>
+      <name>Wilco Airbus Evo</name>
+      <link>LEBLLQSA_WAE_1607637506.rte</link>
+    </file>
+    <file>
+      <name>X-FMC</name>
+      <link>LEBLLQSA_XFM_1607637506.FPL</link>
+    </file>
+    <file>
+      <name>X-Plane 11</name>
+      <link>LEBLLQSA_XPE_1607637506.fms</link>
+    </file>
+    <file>
+      <name>X-Plane 9/10</name>
+      <link>LEBLLQSA_XP9_1607637506.fms</link>
+    </file>
+  </files>
+  <fms_downloads>
+    <directory>http://www.simbrief.com/ofp/flightplans/</directory>
+    <pdf>
+      <name>PDF Document</name>
+      <link>LEBLLQSA_PDF_1607637506.pdf</link>
+    </pdf>
+    <abx>
+      <name>Aerosoft Airbus</name>
+      <link>LEBLLQSA_ABX_1607637506.flp</link>
+    </abx>
+    <a3e>
+      <name>Aerosoft Airbus EFB</name>
+      <link>LEBLLQSA_PDF_1607637506.pdf--A3E</link>
+    </a3e>
+    <crx>
+      <name>Aerosoft CRJ</name>
+      <link>LEBLLQSA_CRX_1607637506.flp</link>
+    </crx>
+    <psx>
+      <name>Aerowinx PSX 747</name>
+      <link>LEBLLQSA_PSX_1607637506.route</link>
+    </psx>
+    <efb>
+      <name>AivlaSoft EFB</name>
+      <link>LEBLLQSA_EFB_1607637506.efbr</link>
+    </efb>
+    <ef2>
+      <name>AivlaSoft EFB v2</name>
+      <link>LEBLLQSA_EF2_1607637506.efbr</link>
+    </ef2>
+    <bbs>
+      <name>Black Box Airbus</name>
+      <link>LEBLLQSA_BBS_1607637506.pln</link>
+    </bbs>
+    <csf>
+      <name>Captain Sim (PLN)</name>
+      <link>LEBLLQSA_CSF_1607637506.pln</link>
+    </csf>
+    <ftr>
+      <name>FeelThere</name>
+      <link>LEBLLQSA_FTR_1607637506.fpl</link>
+    </ftr>
+    <gtn>
+      <name>Flight1 GTN</name>
+      <link>LEBLLQSA_GTN_1607637506.gfp</link>
+    </gtn>
+    <vm5>
+      <name>FlightFactor 757 V2</name>
+      <link>LEBLLQSA_VMX_1607637506.flp--VM5</link>
+    </vm5>
+    <vmx>
+      <name>FlightFactor 767-777</name>
+      <link>LEBLLQSA_VMX_1607637506.flp</link>
+    </vmx>
+    <ffa>
+      <name>FlightFactor A320</name>
+      <link>LEBLLQSA_FFA_1607637506.in</link>
+    </ffa>
+    <fsc>
+      <name>FS Commander</name>
+      <link>LEBLLQSA_FSC_1607637506.pln</link>
+    </fsc>
+    <fs9>
+      <name>FS2004</name>
+      <link>LEBLLQSA_FS9_1607637506.pln</link>
+    </fs9>
+    <mfs>
+      <name>FS2020</name>
+      <link>LEBLLQSA_MFS_1607637506.pln</link>
+    </mfs>
+    <fsl>
+      <name>FSLabs A320</name>
+      <link>LEBLLQSA_FSL_1607637506.txt</link>
+    </fsl>
+    <fsx>
+      <name>FSX/P3D</name>
+      <link>LEBLLQSA_FSX_1607637506.pln</link>
+    </fsx>
+    <fsn>
+      <name>FSX/P3D (No SID/STAR)</name>
+      <link>LEBLLQSA_FSN_1607637506.pln</link>
+    </fsn>
+    <kml>
+      <name>Google Earth KML</name>
+      <link>LEBLLQSA_KML_1607637506.kml</link>
+    </kml>
+    <ify>
+      <name>iFly 737NG</name>
+      <link>LEBLLQSA_IFY_1607637506.FLTPLAN</link>
+    </ify>
+    <i74>
+      <name>iFly 747 V2</name>
+      <link>LEBLLQSA_I74_1607637506.route</link>
+    </i74>
+    <ivo>
+      <name>IVAO/IVAP</name>
+      <link>LEBLLQSA_IVO_1607637506.fpl</link>
+    </ivo>
+    <xvd>
+      <name>IVAO/IVAP (Default.fpl)</name>
+      <link>LEBLLQSA_XVD_1607637506.fpl</link>
+    </xvd>
+    <xvp>
+      <name>IVAO/XIVAP</name>
+      <link>LEBLLQSA_XVP_1607637506.fpl</link>
+    </xvp>
+    <ixg>
+      <name>IXEG 737 Classic</name>
+      <link>LEBLLQSA_IXG_1607637506.fpl</link>
+    </ixg>
+    <jar>
+      <name>JARDesign Airbus</name>
+      <link>LEBLLQSA_JAR_1607637506.txt</link>
+    </jar>
+    <mdr>
+      <name>Leonardo MD80</name>
+      <link>LEBLLQSA_MDR_1607637506.mdr</link>
+    </mdr>
+    <mda>
+      <name>Leonardo MD80 (ACARS)</name>
+      <link>LEBLLQSA_MDA_1607637506.txt</link>
+    </mda>
+    <lvd>
+      <name>Level-D 767</name>
+      <link>LEBLLQSA_LVD_1607637506.rte</link>
+    </lvd>
+    <mjc>
+      <name>Majestic Q400</name>
+      <link>LEBLLQSA_MJC_1607637506.fpr</link>
+    </mjc>
+    <vms>
+      <name>phpVMS ACARS</name>
+      <link>LEBLLQSA_VMS_1607637506.xml</link>
+    </vms>
+    <pmr>
+      <name>PMDG Flightplan</name>
+      <link>LEBLLQSA_PMR_1607637506.rte</link>
+    </pmr>
+    <pmw>
+      <name>PMDG Wind Uplink</name>
+      <link>LEBLLQSA_PMW_1607637506.wx</link>
+    </pmw>
+    <mga>
+      <name>Project Magenta</name>
+      <link>LEBLLQSA_MGA_1607637506.sbp</link>
+    </mga>
+    <psm>
+      <name>ProSim 737</name>
+      <link>LEBLLQSA_PSM_1607637506.xml</link>
+    </psm>
+    <qty>
+      <name>QualityWings</name>
+      <link>LEBLLQSA_QTY_1607637506.RTE</link>
+    </qty>
+    <sbr>
+      <name>Sim-Avionics</name>
+      <link>xml/LEBLLQSA_XML_1607637506.xml--sbr</link>
+    </sbr>
+    <sfp>
+      <name>Squawkbox</name>
+      <link>LEBLLQSA_SFP_1607637506.sfp</link>
+    </sfp>
+    <tfd>
+      <name>TFDi Design 717</name>
+      <link>LEBLLQSA_TFD_1607637506.xml</link>
+    </tfd>
+    <ufc>
+      <name>UFMC - Universal FMC</name>
+      <link>LEBLLQSA_UFC_1607637506.ufmc</link>
+    </ufc>
+    <vas>
+      <name>vasFMC</name>
+      <link>LEBLLQSA_VAS_1607637506.fmc</link>
+    </vas>
+    <vfp>
+      <name>vPilot</name>
+      <link>LEBLLQSA_VFP_1607637506.vfp</link>
+    </vfp>
+    <wae>
+      <name>Wilco Airbus Evo</name>
+      <link>LEBLLQSA_WAE_1607637506.rte</link>
+    </wae>
+    <xfm>
+      <name>X-FMC</name>
+      <link>LEBLLQSA_XFM_1607637506.FPL</link>
+    </xfm>
+    <xpe>
+      <name>X-Plane 11</name>
+      <link>LEBLLQSA_XPE_1607637506.fms</link>
+    </xpe>
+    <xp9>
+      <name>X-Plane 9/10</name>
+      <link>LEBLLQSA_XP9_1607637506.fms</link>
+    </xp9>
+  </fms_downloads>
+  <images>
+    <directory>http://www.simbrief.com/ofp/uads/</directory>
+    <map>
+      <name>Route</name>
+      <link>LEBLLQSA_1607637506_ROUTE.gif</link>
+    </map>
+    <map>
+      <name>SigWx 1 of 2</name>
+      <link>LEBLLQSA_1607637506_SIGWX06.gif</link>
+    </map>
+    <map>
+      <name>SigWx 2 of 2</name>
+      <link>LEBLLQSA_1607637506_SIGWX06_B.gif</link>
+    </map>
+    <map>
+      <name>UAD 1 of 3</name>
+      <link>LEBLLQSA_1607637506_WINDS30000.gif</link>
+    </map>
+    <map>
+      <name>UAD 2 of 3</name>
+      <link>LEBLLQSA_1607637506_WINDS34000.gif</link>
+    </map>
+    <map>
+      <name>UAD 3 of 3</name>
+      <link>LEBLLQSA_1607637506_WINDS39000.gif</link>
+    </map>
+    <map>
+      <name>Vertical profile</name>
+      <link>LEBLLQSA_1607637506_PROFILE.gif</link>
+    </map>
+  </images>
+  <links>
+    <skyvector>http://skyvector.com/?ll=42.778629,10.060253&amp;chart=304&amp;zoom=7&amp;fpl= LEBL SALON UM985 OBLAD UZ194 PELOS IBROS MEDAL TIBER ETRIN XOLTA LQSA</skyvector>
+  </links>
+  <vatsim_prefile>&lt;form method="GET" action="https://my.vatsim.net/pilots/flightplan" target="_blank"&gt; &lt;button type="submit"&gt;Pre-file on VATSIM&lt;/button&gt; &lt;input type="hidden" name="raw" value="(FPL-SAB7713-IS -MD11/H-SDE1E2E3FGHIJ2J3J4J5M1RWXY/LB1D1 -LEBL0730 -DCT SALON UM985 OBLAD/N0473F390 UZ194 PELOS/N0473F380 DCT IBROS DCT MEDAL DCT TIBER DCT ETRIN DCT XOLTA/N0477F390 -LQSA0146 LQMO -PBN/A1B1C1D1L1O1S2 DOF/201210 REG/N115SB EET/LFFF0017 LIRR0036 LFFF0040 LIRR0047 LIBB0108 LDZO0120 LQSB0135 OPR/SAB PER/D RMK/TCAS SIMBRIEF)"&gt; &lt;input type="hidden" name="fuel_time" value="0309"&gt; &lt;input type="hidden" name="speed" value="472"&gt; &lt;input type="hidden" name="altitude" value="38000"&gt; &lt;/form&gt;</vatsim_prefile>
+  <ivao_prefile>&lt;form action="https://fpl.ivao.aero/api/fp/load" method="POST" target="_blank"&gt;
+&lt;button type="submit"&gt;Pre-file on IVAO&lt;/button&gt;
+&lt;input type="hidden" name="CALLSIGN" value="SAB7713"&gt;
+&lt;input type="hidden" name="RULES" value="I"&gt;
+&lt;input type="hidden" name="FLIGHTTYPE" value="S"&gt;
+&lt;input type="hidden" name="NUMBER" value="1"&gt;
+&lt;input type="hidden" name="ACTYPE" value="MD11"&gt;
+&lt;input type="hidden" name="WAKECAT" value="H"&gt;
+&lt;input type="hidden" name="EQUIPMENT" value="SDE1E2E3FGHIJ2J3J4J5M1RWXY"&gt;
+&lt;input type="hidden" name="TRANSPONDER" value="LB1D1"&gt;
+&lt;input type="hidden" name="DEPICAO" value="LEBL"&gt;
+&lt;input type="hidden" name="DEPTIME" value="0730"&gt;
+&lt;input type="hidden" name="SPEEDTYPE" value="N"&gt;
+&lt;input type="hidden" name="SPEED" value="0472"&gt;
+&lt;input type="hidden" name="LEVELTYPE" value="F"&gt;
+&lt;input type="hidden" name="LEVEL" value="380"&gt;
+&lt;input type="hidden" name="ROUTE" value="DCT SALON UM985 OBLAD/N0473F390 UZ194 PELOS/N0473F380 DCT IBROS DCT MEDAL DCT TIBER DCT ETRIN DCT XOLTA/N0477F390"&gt;
+&lt;input type="hidden" name="DESTICAO" value="LQSA"&gt;
+&lt;input type="hidden" name="EET" value="0146"&gt;
+&lt;input type="hidden" name="ALTICAO" value="LQMO"&gt;
+&lt;input type="hidden" name="ALTICAO2" value=""&gt;
+&lt;input type="hidden" name="OTHER" value="PBN/A1B1C1D1L1O1S2 DOF/201210 REG/N115SB EET/LFFF0017 LIRR0036 LFFF0040 LIRR0047 LIBB0108 LDZO0120 LQSB0135 OPR/SAB PER/D RMK/TCAS SIMBRIEF"&gt;
+&lt;input type="hidden" name="ENDURANCE" value="0309"&gt;
+&lt;input type="hidden" name="POB" value="381"&gt;
+&lt;/form&gt;</ivao_prefile>
+  <pilotedge_prefile>https://www.pilotedge.net/pilot_tools/file?flightplan[type]=IFR&amp;flightplan[aircraft_identification]=SAB7713&amp;flightplan[aircraft_type]=MD11&amp;flightplan[aircraft_equipment]=L&amp;flightplan[heavy]=1&amp;flightplan[airspeed]=472&amp;flightplan[departing_airport]=LEBL&amp;flightplan[arriving_airport]=LQSA&amp;flightplan[altitude]=38000&amp;flightplan[alternate_airport]=LQMO&amp;flightplan[route]=SALON UM985 OBLAD/N0473F390 UZ194 PELOS/N0473F380 IBROS MEDAL TIBER ETRIN XOLTA/N0477F390&amp;flightplan[remarks]=RMK/SIMBRIEF</pilotedge_prefile>
+  <poscon_prefile>https://hq.poscon.net/flightplan/create?flightRules=I&amp;callsign=SAB7713&amp;isRegistration=N&amp;flightType=S&amp;numOfAircraft=1&amp;aircraftType=MD11&amp;wakeTurbulence=H&amp;equipmentCode=S%2CD%2CE1%2CE2%2CE3%2CF%2CG%2CH%2CI%2CJ2%2CJ3%2CJ4%2CJ5%2CM1%2CR%2CW%2CX%2CY&amp;ssr=L%2CB1%2CD1&amp;departureApt=LEBL&amp;dateOfFlight=201210&amp;depTime=0730&amp;speed=N0472&amp;cruiseAlt=F380&amp;route=DCT+SALON+UM985+OBLAD%2FN0473F390+UZ194+PELOS%2FN0473F380+DCT+IBROS+DCT+MEDAL+DCT+TIBER+DCT+ETRIN+DCT+XOLTA%2FN0477F390&amp;destinationApt=LQSA&amp;ete=0146&amp;firstAlt=LQMO&amp;secondAlt=&amp;status=&amp;pbn=A1%2CB1%2CC1%2CD1%2CL1%2CO1%2CS2&amp;performanceCat=D&amp;otherInformation=PBN%2FA1B1C1D1L1O1S2+DOF%2F201210+REG%2FN115SB+EET%2FLFFF0017+LIRR0036+LFFF0040+LIRR0047+LIBB0108+LDZO0120+LQSB0135+OPR%2FSAB+PER%2FD+RMK%2FTCAS+SIMBRIEF&amp;endurance=0309&amp;numOnBoard=381&amp;emergencyRadio=&amp;waterEquipment=&amp;remarks=TCAS+SIMBRIEF</poscon_prefile>
+  <map_data>https://www.simbrief.com/ofp/flightplans/LEBLLQSA_MJS_1607637506.js</map_data>
+  <api_params>
+    <airline>SAB</airline>
+    <fltnum>7713</fltnum>
+    <type>322111_1596563907453</type>
+    <orig>LEBL</orig>
+    <dest>LQSA</dest>
+    <date>1607558400</date>
+    <dephour>25200</dephour>
+    <depmin>1800</depmin>
+    <route>SALON UM985 OBLAD UZ194 PELOS IBROS MEDAL TIBER ETRIN XOLTA</route>
+    <stehour>7200</stehour>
+    <stemin>900</stemin>
+    <reg>N115SB</reg>
+    <fin>115</fin>
+    <selcal/>
+    <pax>366</pax>
+    <altn>LQMO</altn>
+    <fl>AUTO</fl>
+    <cpt>ADRIAN SERRANO</cpt>
+    <pid>322111</pid>
+    <fuelfactor>1</fuelfactor>
+    <manualzfw>auto</manualzfw>
+    <addedfuel>0</addedfuel>
+    <contpct>auto</contpct>
+    <resvrule>auto</resvrule>
+    <taxiout>18</taxiout>
+    <taxiin>8</taxiin>
+    <cargo>6.5</cargo>
+    <origrwy>25L</origrwy>
+    <destrwy>12</destrwy>
+    <climb>250/330/82</climb>
+    <descent>82/330/250</descent>
+    <cruisemode>CI</cruisemode>
+    <cruisesub>auto</cruisesub>
+    <planformat>lido</planformat>
+    <pounds>1</pounds>
+    <navlog>1</navlog>
+    <etops/>
+    <stepclimbs>1</stepclimbs>
+    <tlr/>
+    <notams_opt>0</notams_opt>
+    <firnot/>
+    <maps>1</maps>
+    <turntoflt/>
+    <turntoapt/>
+    <turntotime/>
+    <turnfrflt/>
+    <turnfrapt/>
+    <turnfrtime/>
+    <fuelstats/>
+    <contlabel/>
+    <static_id/>
+    <acdata/>
+    <acdata_parsed>{"basetype":"MD11","reg":"N115SB","fin":"115","cat":"H","equip":"SDE1E2E3FGHIJ2J3J4J5M1RWXYZ","transponder":"LB1D1","pbn":"PBN\/A1B1C1D1L1O1S2","selcal":"","maxpax":"381","wgtunits":"LBS","oew":287.287,"mzfw":430,"mtow":630.5,"mlw":458,"maxfuel":256.9,"fuelfactor":"P00","icao":"MD11","name":"MD-11","engines":"CF6-80C2D1F","per":"D","hexcode":"","extrarmk":"","paxwgt":230,"comments":"","defaultci":"","cruiseoffset":"P0000"}</acdata_parsed>
+  </api_params>
+</OFP>

@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<PropertyList>
+	<version type="int">2</version>
+	<departure>
+		<airport type="string">LEBL</airport>
+		<runway type="string">25L</runway>
+	</departure>
+	<destination>
+		<airport type="string">LQSA</airport>
+		<runway type="string">12</runway>
+	</destination>
+	<route>
+		<wp>
+			<departure type="bool">true</departure>
+			<icao type="string">LEBL</icao>
+			<type type="string">runway</type>
+			<ident type="string">25L</ident>
+		</wp>
+		<wp n="1">
+			<altitude-ft type="double">32700</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">SALON</ident>
+			<lat type="double">41.494500</lat>
+			<lon type="double">3.187194</lon>
+		</wp>
+		<wp n="2">
+			<altitude-ft type="double">35700</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">AGENA</ident>
+			<lat type="double">41.544806</lat>
+			<lon type="double">3.488611</lon>
+		</wp>
+		<wp n="3">
+			<altitude-ft type="double">37200</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">MAROT</ident>
+			<lat type="double">41.605667</lat>
+			<lon type="double">3.860250</lon>
+		</wp>
+		<wp n="4">
+			<altitude-ft type="double">38000</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">basic</type>
+			<ident type="string">TOC</ident>
+			<lat type="double">41.609191</lat>
+			<lon type="double">3.882021</lon>
+		</wp>
+		<wp n="5">
+			<altitude-ft type="double">38000</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">LUMAS</ident>
+			<lat type="double">41.733222</lat>
+			<lon type="double">4.666667</lon>
+		</wp>
+		<wp n="6">
+			<altitude-ft type="double">38000</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">OBLAD</ident>
+			<lat type="double">41.810000</lat>
+			<lon type="double">5.013333</lon>
+		</wp>
+		<wp n="7">
+			<altitude-ft type="double">39000</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">OLNUL</ident>
+			<lat type="double">41.667778</lat>
+			<lon type="double">5.385000</lon>
+		</wp>
+		<wp n="8">
+			<altitude-ft type="double">39000</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">NIVDA</ident>
+			<lat type="double">41.243333</lat>
+			<lon type="double">6.568611</lon>
+		</wp>
+		<wp n="9">
+			<altitude-ft type="double">39000</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">UTORU</ident>
+			<lat type="double">41.180556</lat>
+			<lon type="double">7.831389</lon>
+		</wp>
+		<wp n="10">
+			<altitude-ft type="double">39000</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">PELOS</ident>
+			<lat type="double">41.161944</lat>
+			<lon type="double">8.161389</lon>
+		</wp>
+		<wp n="11">
+			<altitude-ft type="double">38000</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">IBROS</ident>
+			<lat type="double">41.794722</lat>
+			<lon type="double">10.048056</lon>
+		</wp>
+		<wp n="12">
+			<altitude-ft type="double">38000</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">MEDAL</ident>
+			<lat type="double">42.052778</lat>
+			<lon type="double">11.376389</lon>
+		</wp>
+		<wp n="13">
+			<altitude-ft type="double">38000</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">TIBER</ident>
+			<lat type="double">42.248875</lat>
+			<lon type="double">12.599000</lon>
+		</wp>
+		<wp n="14">
+			<altitude-ft type="double">38000</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">ETRIN</ident>
+			<lat type="double">42.605833</lat>
+			<lon type="double">14.720000</lon>
+		</wp>
+		<wp n="15">
+			<altitude-ft type="double">38000</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">navaid</type>
+			<ident type="string">XOLTA</ident>
+			<lat type="double">42.703889</lat>
+			<lon type="double">15.748333</lon>
+		</wp>
+		<wp n="16">
+			<altitude-ft type="double">39000</altitude-ft>
+			<alt-restrict type="string">at</alt-restrict>
+			<type type="string">basic</type>
+			<ident type="string">TOD</ident>
+			<lat type="double">42.947398</lat>
+			<lon type="double">16.290622</lon>
+		</wp>
+		<wp>
+			<arrival type="bool">true</arrival>
+			<icao type="string">LQSA</icao>
+			<type type="string">runway</type>
+			<ident type="string">12</ident>
+		</wp>
+	</route>
+</PropertyList>
